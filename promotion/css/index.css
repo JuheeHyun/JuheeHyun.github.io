@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.container{width: 960px; height: auto; margin: 0 auto; }
+/* header */
+#header{width: 920px; height: 60px; padding: 10px 20px; background-color: #f6f5ef; position: fixed;}
+h1{width: 60px; height: 60px; margin: 0; float: left;}
+h1 img{width: 60px; height: 60px;}
+h1 span{width: 0; height: 0;display: block; overflow: hidden;}
+#nav{width: 460px; height: 60px; float: right;}
+#nav>ul{width: inherit; float: left;}
+#nav li{}
+.unb{}
+.unb>li{float: left;}
+.gnb{}
+.gnb>li{float: left;}
+
+/* content */
+#content{width: inherit; height: auto; float: left; }
+#content span{width: 0; height: 0; display: block; overflow: hidden;}
+.section{width: inherit; height: 500px; background-image: url('../img/main_section.png');float: left;}
+.article_01{width: inherit; height: 500px; background-image: url('../img/article_01.png'); float: left;}
+.article_02{width: inherit; height: 1150px; background-image: url('../img/article_02.png'); float: left;}
+.comment{width: inherit; height: 100%;}
+
+/* footer */
+#footer{width: inherit; height: auto; background-color: #777; float: left;}
+
+.snsBox{}
+.snsBox>ul{float: right;}
+.snsBox li{float: left;}
+.snsBox span{}

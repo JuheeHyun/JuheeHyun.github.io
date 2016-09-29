@@ -1,0 +1,20 @@
+*{margin:0; padding: 0; border: 0;}
+li{list-style: none;}
+
+body{margin: 0;}
+#box{width:800px; height: 600px; margin: 50px auto; background-color: #000;}
+
+.header{width:200px; height: 500px; float: left; background-color: green;}
+h1{width: 150px; height: 80px; background-color: #333; margin: 15px; float: left;}
+.navigation{}
+.gnb{width: 150px; height: 400px; float: left; margin-left: 15px;}
+.gnb > li{width: 150px; height: 30px; margin-top: 10px; margin-bottom: 5px; margin-left: 5px; background-color: #a6f; float: left;}
+
+.section{width:600px; height:500px; background:grey; float: left;}
+.aside{width:550px; height:250px; background:orange; margin-left:25px; margin-top: 25px;}
+.artcle{width:230px; height:150px; background:orange; margin-left:25px; margin-top: 25px; float: left;}
+.container{width:300px; height:150px; background:orange; margin-left:20px; margin-top: 25px; float: left;}
+
+.footer{width: 800px; height: 100px; background-color: brown; float: left;}
+.foot{width: 750px; height: 30px; background-color: #333; margin-top: 45px; margin-left: 25px; float:left;}
+

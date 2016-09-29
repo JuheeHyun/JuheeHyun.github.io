@@ -1,0 +1,22 @@
+/*css3_05_background_01.css*/
+/*
+cover:주어진 크기에 맞게 꽉차게 만드는 것(일부유실가능성 있음);
+contain:이미지 전체를 무조건 다 보이게(비율유지);
+*/
+
+body{}
+h1{width: 100%; height: 3rem; text-align: center; margin-bottom: 2rem; 
+	box-shadow: 0 2px 3px #333; background-color: #fff;}
+body>div{width: 700px; height: 300px; border-bottom: 1px solid #333; 
+	background-color: #ddd; margin: 0 auto;  margin-bottom: 1rem;padding: 1rem; 
+	box-sizing: border-box; background-repeat: no-repeat; background-position:center;}
+.box_01{background-image: url(../img/bg_01.jpg); background-size:50%;}
+.box_02{background-image: url(../img/bg_02.jpg);  background-size:contain;}
+.box_03{background-image: url(../img/bg_03.jpg), url(../img/bg_02.jpg); background-size: 20%, 30%; background-position: left bottom, right top;}
+.box_04{background-image:linear-gradient(-10deg, #a55 50%, #5a9 50%); }
+.box_05{background-image: url(../img/bg_05.jpg);}
+
+@media all and (device-pixel-ratio 1.5) {
+	.box_04{background-image:linear-gradient(-10deg, #a55 50%, #5a9 50%); }
+	
+}

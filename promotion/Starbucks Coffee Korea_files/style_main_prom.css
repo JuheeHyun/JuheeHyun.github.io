@@ -1,0 +1,1299 @@
+@charset 'utf-8';
+
+	/* 16autumn1 main visual */
+
+	.autumn1_mv_wrap { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/autumn1_bg.jpg") repeat-x; height:646px; overflow:hidden; position:relative; }
+
+	.main_autumn1_ani_wrap { height:646px; left:50%; margin-left:-1000px; position:absolute; width:2000px; }
+
+	.poly_obje01 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/poly_obje01.png") no-repeat; background-size:100% auto; height:214px; left:-1px; position:absolute; top:-34px; width:270px; }
+	.poly_obje02 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/poly_obje02.png") no-repeat; background-size:100% auto; height:115px; position:absolute; right:310px; top:-64px; width:99px; }
+	.poly_obje03 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/poly_obje03.png") no-repeat; background-size:100% auto; bottom:-33px; height:214px; position:absolute; right:-41px; width:211px; }
+	.poly_obje04 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/poly_obje02.png") no-repeat; background-size:100% auto; bottom:0; height:115px; left:30px; position:absolute; width:99px; }
+
+	.cup_obje01 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/cup_obje01.png") no-repeat; background-size:100% auto; height:172px; left:288px; position:absolute; top:252px; width:70px; }
+	.cup_obje02 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/cup_obje02.png") no-repeat; background-size:100% auto; height:157px; left:797px; position:absolute; top:510px; width:71px; }
+	.cup_obje03 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/cup_obje03.png") no-repeat; background-size:100% auto; height:91px; position:absolute; right:230px; top:375px; width:102px; }
+	.cup_obje04 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/cup_obje04.png") no-repeat; background-size:100% auto; height:180px; position:absolute; right:96px; top:35px; width:98px; }
+	.cup_obje05 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/cup_obje03.png") no-repeat; background-size:100% auto; bottom:-30px; height:180px; left:340px; position:absolute; width:98px; }
+	
+	.ttl_teavana { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/ttl_teavana.png") no-repeat; background-size:100% auto; height:184px; left:449px; /*opacity:0; filter:alpha(opacity=0);*/ position:absolute; top:109px; width:452px; }
+
+	.btn_autumn_detail { height:38px; left:613px; /*opacity:0; filter:alpha(opacity=0);*/ position:absolute; top:322px; width:125px; }
+	.btn_autumn_detail a { border:2px solid #1d2682; border-radius:3px; color:#1d2682; display:block; font-size:14px; height:34px; line-height:34px; text-align:center; width:121px; transition:background-color .7s, color .7s; -webkit-transition:background-color .7s, color .7s; }
+	.btn_autumn_detail a:hover { background:#1d2682; color:#fff; }
+
+	.tablecloth { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/tablecloth.png") no-repeat; background-size:100% auto; height:419px; left:950px; /*opacity:0; filter:alpha(opacity=0);*/ position:absolute; top:192px; width:691px; z-index:3; }
+
+	.bev_img01 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/bev_img01.png") no-repeat; background-size:100% auto; height:435px; left:1113px; /*opacity:0; filter:alpha(opacity=0);*/ position:absolute; top:12px; width:364px; z-index:5; }
+	.bev_img01_shadow { display:none !important; background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/bev_img01_shadow.png") no-repeat; background-size:5070px auto; display:none; height:332px; left:1136px; position:absolute; top:237px; width:338px; z-index:4; }
+	.bev_img02 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/bev_img02.png") no-repeat; background-size:100% auto; height:360px; left:963px; /*opacity:0; filter:alpha(opacity=0);*/ position:absolute; top:210px; width:357px; z-index:7; }
+	.bev_img02_shadow { display:none !important; background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/bev_img02_shadow.png") no-repeat; display:none; height:301px; left:1029px; position:absolute; top:281px; width:315px; z-index:6; }
+	.ttl_bev01 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/ttl_bev01.png") no-repeat; background-size:100% auto; height:102px; left:1288px; /*opacity:0; filter:alpha(opacity=0);*/ position:absolute; top:42px; width:231px; z-index:9; }
+
+	.bev_img03 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/bev_img03.png") no-repeat; background-size:100% auto; height:396px; left:1372px; /*opacity:0; filter:alpha(opacity=0);*/ position:absolute; top:128px; width:269px; z-index:9; }
+	.bev_img03_shadow { display:none !important; background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/bev_img03_shadow.png") no-repeat; display:none; height:276px; left:1294px; position:absolute; top:289px; width:315px; z-index:8; }
+	.bev_img04 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/bev_img04.png") no-repeat; background-size:100% auto; height:314px; left:1230px; /*opacity:0; filter:alpha(opacity=0);*/ position:absolute; top:305px; width:357px; z-index:10; }
+	.bev_img04_shadow { display:none !important; background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/bev_img04_shadow.png") no-repeat; display:none; height:247px; left:1264px; position:absolute; top:343px; width:275px; z-index:9; }
+	.ttl_bev02 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/ttl_bev02.png") no-repeat; background-size:100% auto; height:99px; left:1377px; /*opacity:0; filter:alpha(opacity=0);*/ position:absolute; top:454px; width:192px; z-index:10; }
+
+	.autumn_spoon { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/spoon.png") no-repeat; background-size:100% auto; height:291px; left:1052px; /*opacity:0; filter:alpha(opacity=0);*/ position:absolute; top:433px; width:341px; z-index:10; }
+
+	.teavana_float { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/teavana_float.png") no-repeat; background-size:100% auto; height:200px; left:575px; /*opacity:0; filter:alpha(opacity=0);*/ position:absolute; top:400px; width:200px; z-index:5; }
+	.teavana_float a { display:block; height:100%; overflow:hidden; text-indent:-20000px; width:100%; }
+
+	#autumn1beanWrap { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/autumn_coffee_bg.jpg") center top repeat; height:400px; position:relative; width:100%; }
+	.autumn1_bean1_bg { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/autumn1_bean1_bg.png") no-repeat; background-size:100% auto; height:523px; left:11px; position:absolute; top:-52px; width:474px; z-index:4; }
+	.autumn1_bean1 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/autumn1_bean1.png") no-repeat; background-size:100% auto; height:523px; left:11px; position:absolute; top:-52px; width:474px; z-index:5; }
+	.autumn1_bean1_ttl { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/autumn1_bean1_ttl.png") no-repeat; background-size:100% auto; height:52px; position:absolute; right:306px; top:129px; width:320px; }
+	.autumn1_bean1_txt { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/autumn1_bean1_txt.png") no-repeat; background-size:100% auto; height:38px; position:absolute; right:246px; top:195px; width:380px; }
+	.btn_autumn1_bean1 { border:2px solid #222; border-radius:3px; height:34px; position:absolute; right:500px; top:262px; width:121px; z-index:6; }
+	.btn_autumn1_bean1 a { color:#222; display:block; font-size:14px; height:100%; line-height:34px; text-align:center; width:100%; transition:background-color .7s, color .7s; -webkit-transition:background-color .7s, color .7s; }
+	.btn_autumn1_bean1 a:hover { background:#222; color:#fff; }
+
+	.autumn1_bean2_bg { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/autumn1_bean2_bg.png") no-repeat; background-size:100% auto; height:444px; left:-18px; position:absolute; top:34px; width:574px; z-index:4; }
+	.autumn1_bean2 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/autumn1_bean2.png") no-repeat; background-size:100% auto; height:444px; left:-18px; position:absolute; top:34px; width:574px; z-index:5; }
+	.autumn1_bean2_ttl { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/autumn1_bean2_ttl.png") no-repeat; background-size:100% auto; height:52px; position:absolute; right:443px; top:129px; width:183px; }
+	.autumn1_bean2_txt { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/autumn1_bean2_txt.png") no-repeat; background-size:100% auto; height:38px; position:absolute; right:169px; top:195px; width:457px; }
+	.btn_autumn1_bean2 { border:2px solid #222; border-radius:3px; height:34px; position:absolute; right:500px; top:262px; width:121px; z-index:6; }
+	.btn_autumn1_bean2 a { color:#222; display:block; font-size:14px; height:100%; line-height:34px; text-align:center; width:100%; transition:background-color .7s, color .7s; -webkit-transition:background-color .7s, color .7s; }
+	.btn_autumn1_bean2 a:hover { background:#222; color:#fff; }
+
+	.res_bean01 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/res_bean01.jpg") no-repeat; background-size:100% auto; height:150px; opacity:0; filter:alpha(opacity=0); position:absolute; right:452px; top:65px; width:149px; }
+	.res_bean02 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/res_bean02.jpg") no-repeat; background-size:100% auto; height:150px; opacity:0; filter:alpha(opacity=0); position:absolute; right:292px; top:65px; width:150px; }
+	.res_bean03 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/res_bean03.jpg") no-repeat; background-size:100% auto; height:150px; opacity:0; filter:alpha(opacity=0); position:absolute; right:132px; top:65px; width:150px; }
+
+	.autumn1_fav_img { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/fav_prod_img.png") no-repeat; background-size:100% auto; height:464px; position:absolute; right:-10px; top:50px; width:612px; z-index:7; }
+
+	#autumn1_img1 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/autumn1_img01.jpg") center center fixed no-repeat #000; background-size:auto 100%; height:710px; padding:0; position:relative; }
+	#autumn1_img2 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/autumn1_img02.jpg") center center fixed no-repeat #000; background-size:auto 100%; height:710px; padding:0; position:relative; }
+
+	/* 16autumn1 main visual end */
+
+	/* summer3 main visual */
+	.summer3_mv_wrap { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/summer3_bg.jpg") repeat-x; height:646px; overflow:hidden; position:relative; }
+	.main_summer3_img1 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/summer3_img1.png") no-repeat; background-size:1200% auto; height:540px; left:-100px; position:absolute; top:-85px; width:540px; }
+	.main_summer3_img2 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/summer3_img2.png") no-repeat; background-size:1000% auto; bottom:-185px; height:750px; position:absolute; right:-370px; width:750px; }
+	
+	.main_summer3_ani_wrap { height:646px; left:50%; margin-left:-1000px; position:absolute; width:2000px; }
+
+	.ttl_summer3 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/ttl_summer3.png") no-repeat; background-size:100% auto; height:141px; left:449px; opacity:0; filter:alpha(opacity=0); position:absolute; top:205px; width:327px; z-index:10; }
+	
+	.btn_summer3_detail { border:2px solid #fff; border-radius:3px; height:34px; left:548px; opacity:0; filter:alpha(opacity=0); position:absolute; top:340px; width:121px; z-index:10; }
+	.btn_summer3_detail a { color:#fff; display:block; font-size:14px; height:100%; line-height:34px; text-align:center; width:100%; transition:background-color .7s, color .7s; -webkit-transition:background-color .7s, color .7s; }
+	.btn_summer3_detail a:hover { background:#fff; color:#222; }
+	
+	.bnr_teaching { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/bnr_sirenorder.png") no-repeat; background-size:100% auto; bottom:70px; height:134px; left:446px; opacity:0; filter:alpha(opacity=0); position:absolute; width:238px; z-index:5; }
+	.bnr_teaching a { display:block; height:100%; width:100%; text-indent:-9999px; }
+
+	.sum3_cup_img_01 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/cup_img_01.png") no-repeat; background-size:100% auto; height:468px; left:859px; opacity:0; filter:alpha(opacity=0); position:absolute; top:39px; width:239px; z-index:4; }
+	.sum3_cup_bg_01 { left:930px; opacity:0; filter:alpha(opacity=0); position:absolute; top:250px; width:0; z-index:3; }
+	.sum3_cup_ttl_01 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/cup_ttl_01.png") no-repeat; background-size:100% auto; bottom:117px; height:90px; left:826px;opacity:0; filter:alpha(opacity=0); position:absolute; width:175px; }
+
+	.sum3_cup_img_02 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/cup_img_02.png") no-repeat; background-size:100% auto; height:468px; left:1271px; opacity:0; filter:alpha(opacity=0); position:absolute; top:39px; width:239px; z-index:3; }
+	.sum3_cup_bg_02 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/cup_bg_02.png") no-repeat; background-size:500% auto; height:175px; left:1262px; opacity:0; filter:alpha(opacity=0); position:absolute; top:92px; width:175px; z-index:3; }
+	.sum3_cup_ttl_02 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/cup_ttl_02.png") no-repeat; background-size:100% auto; bottom:117px; height:90px; left:1383px; opacity:0; filter:alpha(opacity=0); position:absolute; width:175px; z-index:3; }
+	
+	.sum3_cup_img_03 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/cup_img_03.png") no-repeat; background-size:100% auto; bottom:0; height:494px; left:1067px; opacity:0; filter:alpha(opacity=0); position:absolute; width:239px; z-index:5; }
+	.sum3_cup_bg_03 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/cup_bg_03.png") no-repeat; background-size:800% auto; height:160px; left:1132px; position:absolute; top:92px; width:120px; z-index:3; }
+	.sum3_cup_ttl_03 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/cup_ttl_03.png") no-repeat; background-size:100% auto; bottom:20px; height:90px; left:1097px; opacity:0; filter:alpha(opacity=0); position:absolute; width:175px; z-index:5; }
+
+	#summer3_img { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/summer3_img.jpg") center center fixed no-repeat #000; background-size:auto 100%; height:710px; padding:0; position:relative; }
+
+	#summer3beanWrap { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/summer3_coffee_bg.jpg") left top repeat; height:400px; position:relative; width:100%; }
+	.summer3_blend_bg { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/summer3_blend_bg.png") no-repeat; background-size:100% auto; height:448px; left:110px; position:absolute; top:50px; width:443px; z-index:5; }
+	.summer3_blend_img { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/summer3_blend.png") no-repeat; background-size:100% auto; height:448px; left:25px; position:absolute; top:0; width:443px; z-index:6; }
+	.summer3_blend_txt1 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/summer3_blend_txt1.png") no-repeat; background-size:100% auto; height:52px; position:absolute; right:390px; top:119px; width:220px; z-index:6; }
+	.summer3_blend_txt2 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/summer3_blend_txt2.png") no-repeat; background-size:100% auto; height:38px; position:absolute; right:184px; top:186px; width:425px; z-index:6; }
+	.btn_summer3_bean { border:2px solid #222; border-radius:3px; height:34px; position:absolute; right:481px; top:269px; width:121px; z-index:6; }
+	.btn_summer3_bean a { color:#222; display:block; font-size:14px; height:100%; line-height:34px; text-align:center; width:100%; transition:background-color .7s, color .7s; -webkit-transition:background-color .7s, color .7s; }
+	.btn_summer3_bean a:hover { background:#222; color:#fff; }
+
+	.summer3_fav_img { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/fav_prod_img.png") no-repeat; background-size:100% auto; height:464px; position:absolute; right:-10px; top:50px; width:612px; z-index:7; }
+
+	.reserve_summer3_bg { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/summer3_reserve_bg.png") no-repeat; background-size:100% auto; height:360px; position:absolute; right:-50px; top:-82px; width:695px; z-index:7; }
+	.reserve_summer3_obje { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/summer3_reserve_obje.png") no-repeat; background-size:100% auto; height:316px; position:absolute; right:-75px; top:-45px; width:689px; z-index:7; }
+	/* summer3 main visual end */
+
+
+	/* summer2 main visual */
+	.summer2_mv_wrap { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/summer_bg.jpg") repeat-x; height:646px; overflow:hidden; position:relative; }
+
+	.main_summer2_ani_wrap { height:646px; left:50%; margin-left:-1000px; position:absolute; width:2000px; }
+
+	.ttl_summer { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/ttl_summer.png") no-repeat; background-size:100% auto; height:141px; left:449px; opacity:0; filter:alpha(opacity=0); position:absolute; top:164px; width:341px; z-index:1; }
+
+	.btn_summer_detail { border:2px solid #fff; border-radius:3px; height:34px; left:557px; opacity:0; filter:alpha(opacity=0); position:absolute; top:360px; width:121px; z-index:10; }
+	.btn_summer_detail a { color:#fff; display:block; font-size:14px; height:100%; line-height:34px; text-align:center; width:100%; transition:background-color .7s, color .7s; -webkit-transition:background-color .7s, color .7s; }
+	.btn_summer_detail a:hover { background:#fff; color:#222; }
+
+	.cup_img_03 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/cup_img_03.png") no-repeat; background-size:100% auto; bottom:234px; height:387px; left:1350px; opacity:0; filter:alpha(opacity=0); position:absolute; width:185px; z-index:4; }
+	.cup_bg_03 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/cup_bg_03.png") no-repeat; background-size:1000% auto; height:500px; left:1232px; position:absolute; top:0; width:500px; z-index:3; }
+	.cup_ttl_03 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/cup_ttl_03.png") no-repeat; background-size:100% auto; height:79px; left:1467px; opacity:0; filter:alpha(opacity=0); position:absolute; top:342px; width:139px; z-index:2; }
+
+	.cup_img_02 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/cup_img_02.png") no-repeat; background-size:100% auto; bottom:110px; height:469px; left:1173px; opacity:0; filter:alpha(opacity=0); position:absolute; width:243px; z-index:7; }
+	.cup_bg_02 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/cup_bg_02.png") no-repeat; background-size:1000% auto; height:225px; left:1160px; position:absolute; top:69px; width:225px; z-index:3; }
+	.cup_ttl_02 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/cup_ttl_02.png") no-repeat; background-size:100% auto; height:59px; left:1407px; opacity:0; filter:alpha(opacity=0); ; position:absolute;  top:462px; width:89px; z-index:5; }
+
+	.cup_img_01 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/cup_img_01.png") no-repeat; background-size:100% auto; bottom:-86px; height:600px; left:965px; opacity:0; filter:alpha(opacity=0); position:absolute; width:285px; z-index:10; }
+	.cup_bg_01 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/cup_bg_01.png") no-repeat; background-size:1000% auto; bottom:-29px; height:669px; left:745px; position:absolute;  width:669px; z-index:3; }
+	.cup_ttl_01 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/cup_ttl_01.png") no-repeat; background-size:100% auto; bottom:19px; height:78px; left:1220px;opacity:0; filter:alpha(opacity=0); position:absolute; width:165px; z-index:8; }
+
+	#summer2_img { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/summer2_img.jpg") center center fixed no-repeat #000; background-size:auto 100%; height:710px; padding:0; position:relative; }
+
+	#summer2beanWrap { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/summer2_coffee_bg.jpg") left top repeat; height:400px; position:relative; width:100%; }
+	.summer2_blend_bg { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/summer2_blend_bg.png") no-repeat; background-size:100% auto; height:448px; left:35px; position:absolute; top:0; width:443px; z-index:5; }
+	.summer2_blend_img { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/summer2_blend.png") no-repeat; background-size:100% auto; height:448px; left:35px; position:absolute; top:0; width:443px; z-index:6; }
+	.summer2_blend_txt1 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/summer2_blend_txt1.png") no-repeat; background-size:100% auto; height:52px; position:absolute; right:356px; top:119px; width:220px; z-index:6; }
+	.summer2_blend_txt2 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/summer2_blend_txt2.png") no-repeat; background-size:100% auto; height:38px; position:absolute; right:175px; top:186px; width:349px; z-index:6; }
+	.btn_summer2_bean { border:2px solid #222; border-radius:3px; height:34px; position:absolute; right:481px; top:269px; width:121px; z-index:6; }
+	.btn_summer2_bean a { color:#222; display:block; font-size:14px; height:100%; line-height:34px; text-align:center; width:100%; transition:background-color .7s, color .7s; -webkit-transition:background-color .7s, color .7s; }
+	.btn_summer2_bean a:hover { background:#222; color:#fff; }
+
+	.summer2_fav_img { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/fav_prod_img.png") no-repeat; background-size:100% auto; height:464px; position:absolute; right:0; top:50px; width:612px; z-index:7; }
+
+	.reserve_summer2_bg { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/summer2_reserve_bg.png") no-repeat; background-size:100% auto; height:379px; position:absolute; right:-50px; top:-100px; width:646px; z-index:7; }
+	.reserve_summer2_obje { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/summer2_reserve_obje.png") no-repeat; background-size:100% auto; height:316px; position:absolute; right:-105px; top:-45px; width:689px; z-index:7; }
+	/* summer2 main visual end */
+
+	/* summer1 main visual */
+	.summer1_mv_wrap { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/summer_bg.jpg") repeat-x; height:646px; overflow:hidden; position:relative; }
+
+	.main_summer1_ani_wrap { height:646px; left:50%; margin-left:-1000px; position:absolute; width:2000px; }
+
+	.ttl_chill { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/ttl_chill.png") no-repeat; background-size:100% auto; height:132px; left:449px; opacity:0; filter:alpha(opacity=0); position:absolute; top:154px; width:311px; z-index:1; }
+
+	.btn_chill_detail { border:2px solid #fff; border-radius:3px; height:34px; left:450px; opacity:0; filter:alpha(opacity=0); position:absolute; top:360px; width:121px; z-index:10; }
+	.btn_chill_detail a { color:#fff; display:block; font-size:14px; height:100%; line-height:34px; text-align:center; width:100%; transition:background-color .7s, color .7s; -webkit-transition:background-color .7s, color .7s; }
+	.btn_chill_detail a:hover { background:#fff; color:#222; }
+
+	.img_cup03 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/img_cup03.png") no-repeat; background-size:100% auto; height:377px; left:1495px; opacity:0; filter:alpha(opacity=0); position:absolute; top:58px; width:206px; z-index:4; }
+	.img_txt03 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/img_txt03.png") no-repeat; background-size:1000% auto; height:294px; left:1385px; position:absolute; top:194px; width:294px; z-index:3; }
+	.ttl_cup03 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/ttl_cup03.png") no-repeat; background-size:100% auto; display:none; height:103px; left:1512px; position:absolute; top:83px; width:158px; z-index:2; }
+
+	.img_cup02 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/img_cup02.png") no-repeat; background-size:100% auto; height:439px; left:747px; opacity:0; filter:alpha(opacity=0); position:absolute; top:146px; width:242px; z-index:7; }
+	.img_txt02 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/img_txt02.png") no-repeat; background-size:1100% auto; height:311px; left:779px; position:absolute; top:150px; width:311px; z-index:6; }
+	.ttl_cup02 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/ttl_cup02.png") no-repeat; background-size:100% auto; display:none; height:118px; left:867px; position:absolute; top:462px; width:123px; z-index:5; }
+
+	.img_cup01 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/img_cup01.png") no-repeat; background-size:100% auto; height:580px; left:1110px; opacity:0; filter:alpha(opacity=0); position:absolute; top:326px; width:283px; z-index:10; }
+	.img_txt01 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/img_txt01.png") no-repeat; background-size:1200% auto; height:533px; left:908px; position:absolute; top:0; width:533px; z-index:9; }
+	.ttl_cup01 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/ttl_cup01.png") no-repeat; background-size:100% auto; display:none; height:116px; left:1375px; position:absolute; top:463px; width:167px; z-index:8; }
+
+	.layer_coldbrew { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/layer_coldbrew.png") no-repeat; background-size:100% auto; height:252px; left:611px; position:absolute; top:368px; width:201px; z-index:10; }
+	.layer_coldbrew p { position:absolute; }
+	.layer_coldbrew p.layer_coldbrew_close { height:27px; left:160px; top:0; width:24px; }
+	.layer_coldbrew p.layer_coldbrew_detail { height:23px; left:58px; top:190px; width:81px; }
+	.layer_coldbrew p a { display:block; height:100%; overflow:hidden; text-indent:-20000px; width:100%; }
+	.nomore_cold { bottom:0; color:#fff; font-size:12px; font-weight:normal; height:16px; left:0; position:absolute; text-align:center; width:100%; white-space:nowrap; }
+
+	#summer1_img { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/summer1_img.jpg") center center fixed no-repeat #000; background-size:auto 100%; height:710px; padding:0; position:relative; }
+
+	#summer1beanWrap { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/summer1_coffee_bg.jpg") left top repeat; height:400px; position:relative; width:100%; }
+	.summer1_blend_bg { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/summer1_blend_bg.png") no-repeat; background-size:100% auto; height:448px; left:35px; position:absolute; top:0; width:443px; z-index:5; }
+	.summer1_blend_img { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/summer1_blend.png") no-repeat; background-size:100% auto; height:448px; left:35px; position:absolute; top:0; width:443px; z-index:6; }
+	.summer1_blend_txt1 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/summer1_blend_txt1.png") no-repeat; background-size:100% auto; height:52px; position:absolute; right:236px; top:119px; width:370px; z-index:6; }
+	.summer1_blend_txt2 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/summer1_blend_txt2.png") no-repeat; background-size:100% auto; height:38px; position:absolute; right:175px; top:186px; width:431px; z-index:6; }
+	.btn_summer1_bean { border:2px solid #222; border-radius:3px; height:34px; position:absolute; right:481px; top:269px; width:121px; z-index:6; }
+	.btn_summer1_bean a { color:#222; display:block; font-size:14px; height:100%; line-height:34px; text-align:center; width:100%; transition:background-color .7s, color .7s; -webkit-transition:background-color .7s, color .7s; }
+	.btn_summer1_bean a:hover { background:#222; color:#fff; }
+
+	.summer1_fav_img { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/fav_prod_img.png") no-repeat; background-size:100% auto; height:464px; position:absolute; right:0; top:50px; width:612px; z-index:7; }
+
+	.reserve_spring1_bg { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/spring_reserve2_bg.png") no-repeat; background-size:100% auto; height:379px; position:absolute; right:-50px; top:-75px; width:689px; z-index:7; }
+	.reserve_spring1_obje { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/spring_reserve2_obje.png") no-repeat; background-size:100% auto; height:316px; position:absolute; right:-45px; top:-45px; width:689px; z-index:7; }
+	/* summer1 main visual end */
+
+	/* spring2 main visual */
+	.spring2_mv_wrap { background:url("http://image.istarbucks.co.kr/common/img/main/spring2/bg_cherry.png") repeat-x; height:646px; overflow:hidden; position:relative; }
+
+	.main_spring2_ani_wrap { background:url("http://image.istarbucks.co.kr/common/img/main/spring2/bg_leaves.png") no-repeat; height:646px; left:50%; margin-left:-1000px; position:absolute; width:2000px; }
+
+	.ttl_bloom { background:url("http://image.istarbucks.co.kr/common/img/main/spring2/ttl_bloom.png") no-repeat; background-size:100% auto; height:412px; left:453px; opacity:0; filter:alpha(opacity=0); position:absolute; top:69px; width:295px; z-index:1; }
+	.leaves { background:url("http://image.istarbucks.co.kr/common/img/main/spring2/leaves.png") no-repeat; background-size:100% auto; height:546px; left:366px; opacity:0; filter:alpha(opacity=0); position:absolute; top:-11px; width:488px; z-index:2; }
+
+	.btn_cherry_detail { border:2px solid #222; border-radius:3px; height:34px; left:536px; opacity:0; filter:alpha(opacity=0); position:absolute; top:518px; width:121px; z-index:10; }
+	.btn_cherry_detail a { color:#222; display:block; font-size:14px; height:100%; line-height:34px; text-align:center; width:100%; transition:background-color .7s, color .7s; -webkit-transition:background-color .7s, color .7s; }
+	.btn_cherry_detail a:hover { background:#222; color:#fff; }
+
+	.leaf_sprite01 { background:url("http://image.istarbucks.co.kr/common/img/main/spring2/leaf_sprite01.png"); display:none; height:646px; left:307px; position:absolute; top:0; width:640px; z-index:9; }
+	.leaf_sprite02 { background:url("http://image.istarbucks.co.kr/common/img/main/spring2/leaf_sprite02.png"); display:none; height:546px; left:89px; position:absolute; top:-121px; width:550px; z-index:9; }
+	.leaf_sprite03 { background:url("http://image.istarbucks.co.kr/common/img/main/spring2/leaf_sprite03.png"); display:none; height:595px; left:393px; position:absolute; top:154px; width:630px; z-index:9; }
+	.leaf_sprite04 { background:url("http://image.istarbucks.co.kr/common/img/main/spring2/leaf_sprite04.png"); display:none; height:400px; left:492px; position:absolute; top:-121px; width:480px; z-index:9; }
+
+	.latte_cup01 { background:url("http://image.istarbucks.co.kr/common/img/main/spring2/latte_cup01.png") no-repeat; background-size:100% auto; height:533px; left:0; opacity:0; filter:alpha(opacity=0); position:absolute; top:-600px; width:699px; z-index:4; }
+	.latte_cup01_shadow { background:url("http://image.istarbucks.co.kr/common/img/main/spring2/latte_cup01_shadow.png") no-repeat; background-size:100% auto; height:533px; left:769px; opacity:0; filter:alpha(opacity=0); position:absolute; top:-52px; width:699px; z-index:3; }
+	.latte_ttl01 { background:url("http://image.istarbucks.co.kr/common/img/main/spring2/latte_ttl01.png") no-repeat; background-size:100% auto; height:59px; left:1273px; opacity:0; filter:alpha(opacity=0); position:absolute; top:93px; width:232px; z-index:5; }
+
+	.choco_cup01 { background:url("http://image.istarbucks.co.kr/common/img/main/spring2/choco_cup01.png") no-repeat; background-size:100% auto; height:522px; left:1759px; opacity:0; filter:alpha(opacity=0); position:absolute; top:800px; width:642px; z-index:6; }
+	.choco_cup01_shadow { background:url("http://image.istarbucks.co.kr/common/img/main/spring2/choco_cup01_shadow.png") no-repeat; background-size:100% auto; height:522px; left:1263px; opacity:0; filter:alpha(opacity=0); position:absolute; top:206px; width:642px; z-index:5; }
+	.choco_ttl01 { background:url("http://image.istarbucks.co.kr/common/img/main/spring2/choco_ttl01.png") no-repeat; background-size:100% auto; height:87px; left:1052px; opacity:0; filter:alpha(opacity=0); position:absolute; top:387px; width:196px; z-index:7; }
+
+	.spring2_fav_img { background:url("http://image.istarbucks.co.kr/common/img/main/spring2/fav_prod_img.png") no-repeat; background-size:100% auto; height:464px; position:absolute; right:0; top:50px; width:612px; z-index:7; }
+	/* spring2 main visual end */
+
+
+/* 반응형 시작 */
+@media screen and (max-width:1370px) {
+
+	/* summer1 */
+	.summer1_mv_wrap { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/summer_bg.jpg") -280px repeat-x; }
+
+	.ttl_chill { left:420px; }
+	.btn_chill_detail { left:420px; }
+
+	.img_cup01 { height:480px; width:233px; }
+	.ttl_cup01 { height:98px; left:1335px; width:142px; }
+
+	.img_cup02 { height:382px; top:226px; width:210px; }
+	.ttl_cup02 { height:100px; width:104px; }
+
+	.ttl_cup03 { height:87px; left:1493px; width:134px; }
+	/* summer1 end */
+}
+
+@media screen and (max-width:1280px) {
+
+	/* 16autumn1 */
+
+	.ttl_teavana { height:140px; left:560px; top:159px; width:340px; }
+	.btn_autumn_detail { left:670px; top:342px; }
+
+	.tablecloth { height:378px; left:940px; top:232px; width:533px; }
+
+	.bev_img01 { height:420px; left:1053px; width:304px; top:42px; }
+	.bev_img01_shadow { background-size:3720px auto; height:282px; left:1073px; top:266px; width:248px; }
+	.bev_img02 { height:320px; left:948px; width:297px; top:230px; }
+	.bev_img02_shadow { background-size:3185px auto; height:241px; left:1010px; top:292px; width:245px; }
+	.bev_img03 { height:320px; left:1262px; width:209px; top:152px; }
+	.bev_img03_shadow { background-size:3075px auto; height:216px; left:1240px; top:297px; width:205px; }
+	.bev_img04 { height:320px; left:1155px; width:297px; top:305px; }
+	.bev_img04_shadow { background-size:2870px auto; height:186px; left:1210px; top:349px; width:205px; }
+
+	.ttl_bev01 { height:91px; left:1200px; top:55px; width:191px; }
+	.ttl_bev02 { height:95px; left:1280px; top:436px; width:152px; }
+
+	.autumn_spoon { height:200px; left:1032px; top:445px; width:240px; }
+
+	.teavana_float { left:635px; }
+
+	/* 16autumn1 end */
+	
+	/* summer3 */
+	.main_summer3_img1 { height:425px; width:370px; }
+	.main_summer3_img2 { height:561px; width:630px; }
+
+	.ttl_summer3 { height:119px; left:545px; top:270px; width:277px; }
+	.btn_summer3_detail { left:620px; top:380px; }
+
+	.bnr_teaching { bottom:50px; height:144px; left:545px; width:238px; }
+
+	.sum3_cup_img_01 { height:409px; left:859px; top:79px; width:209px; }
+	.sum3_cup_bg_01 { left:905px; top:275px; }
+	.sum3_cup_ttl_01 { bottom:159px; height:77px; left:820px; width:150px; }
+
+	.sum3_cup_img_02 { height:409px; left:1271px; top:79px; width:209px; }
+	.sum3_cup_bg_02 { height:135px; left:1242px; top:132px; width:135px; }
+	.sum3_cup_ttl_02 { bottom:155px; height:77px; left:1330px; width:150px; }
+	
+	.sum3_cup_img_03 { bottom:0; height:432px; left:1037px; width:209px; }
+	.sum3_cup_bg_03 { height:133px; left:1100px; top:150px; width:100px; }
+	.sum3_cup_ttl_03 { bottom:30px; height:77px; left:1066px; width:150px; }
+
+	.summer3_fav_img { right:150px; }
+	/* summer3 end */
+
+	/* summer2 */
+	.ttl_summer { left:475px; }
+	.btn_summer_detail { left:570px; }
+
+	.cup_img_03 { bottom:215px; height:387px; left:1210px; width:165px; z-index:3; }
+	.cup_bg_03 { height:500px; left:1080px;  top:0; width:500px; z-index:2; }
+	.cup_ttl_03 {  height:79px; left:1310px; opacity:0; top:335px; width:139px; z-index:4; }
+
+	.cup_img_02 { bottom:90px; height:469px; left:1055px; width:220px; z-index:4; }
+	.cup_bg_02 { height:225px; left:1025px; top:74px; width:225px; z-index:2; }
+	.cup_ttl_02 {  height:59px; left:1225px;  top:460px; width:89px; z-index:4; }
+
+	.cup_img_01 { bottom:-140px; height:600px; left:880px;  width:250px; z-index:5; }
+	.cup_bg_01 {  bottom:-29px; height:669px; left:660px; width:669px; z-index:2; }
+	.cup_ttl_01 { bottom:19px; height:78px; left:1110px; width:165px; z-index:4; }
+	.summer2_fav_img { right:80px; }
+	/* summer2 end */
+
+
+	/* summer1 */
+	.summer1_mv_wrap { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/summer_bg.jpg") -280px repeat-x; }
+
+	.ttl_chill { left:490px; }
+	.btn_chill_detail { left:490px; }
+
+	.img_cup03 { height:304px; top:208px; width:166px; }
+	.img_txt03 { height:260px; left:1285px; top:284px; width:260px; }
+	.ttl_cup03 { left:1333px; top:113px; }
+
+	.img_cup02 { height:328px; top:256px; width:180px; }
+	.img_txt02 { height:260px; left:820px; top:180px; width:260px; }
+	.ttl_cup02 { left:897px; }
+
+	.img_cup01 { height:390px; left:1100px; width:190px; }
+	.img_txt01 { left:868px; }
+	.ttl_cup01 { left:1285px; top:513px; }
+	/* summer1 end */
+
+	/* spring2 */
+	.ttl_bloom { left:500px; }
+	.leaves { left:413px; }
+
+	.leaf_sprite01 { left:311px; }
+	.leaf_sprite02 { left:120px; }
+	.leaf_sprite03 { left:450px; }
+	.leaf_sprite04 { left:540px; }
+
+	.latte_cup01 { height:480px; width:630px; }
+	.latte_cup01_shadow { height:480px; left:810px; width:630px; }
+	.choco_cup01 { height:463px; width:570px; }
+	.choco_cup01_shadow { height:463px; width:570px; }
+
+	.latte_ttl01 { left:1280px; }
+
+	.btn_cherry_detail { left:596px; }
+	/* spring2 end */
+
+	/* spring */
+	.spring_typo_wrap { left:510px; }
+	.btn_macchiato_detail { left:650px; }
+
+	.spring_obj { left:230px; }
+
+	.spring_navi { top:280px; }
+	/* spring end */
+	
+	.main_typo_wrap { left:360px; }
+	.btn_awaken_detail { left:633px; }
+
+	.spoon { right:495px; }
+
+	.vanilla_flower { left:950px; }
+	.vanilla_cup_txt { right:780px; }
+
+	.cup_nuts { right:700px; }
+	.nuts_deco { right:350px; }
+	.nuts_cup_txt { right:380px; }
+
+	.winter2_blend_bg { left:180px; }
+	.winter2_blend_img { left:180px; }
+}
+
+@media screen and (max-width:1104px) {
+	
+	/* summer3 */
+	.ttl_summer3 { height:119px; left:545px; top:270px; width:277px; }
+	.btn_summer3_detail { left:620px; top:380px; }
+
+	.bnr_teaching { bottom:50px; height:144px; left:545px; width:238px; }
+
+	.sum3_cup_img_01 { height:409px; left:859px; top:79px; width:209px; }
+	.sum3_cup_bg_01 { left:905px; top:265px; }
+	.sum3_cup_ttl_01 { bottom:159px; height:77px; left:820px; width:150px; }
+
+	.sum3_cup_img_02 { height:409px; left:1271px; top:79px; width:209px; }
+	.sum3_cup_bg_02 { height:135px; left:1242px; top:132px; width:135px; }
+	.sum3_cup_ttl_02 { bottom:155px; height:77px; left:1330px; width:150px; }
+	
+	.sum3_cup_img_03 { bottom:0; height:432px; left:1037px; width:209px; }
+	.sum3_cup_bg_03 { height:133px; left:1100px; top:150px; width:100px; }
+	.sum3_cup_ttl_03 { bottom:30px; height:77px; left:1066px; width:150px; }
+
+	.reserve_summer3_bg { right:0; }
+	.reserve_summer3_obje { right:-25px; }
+
+	.summer3_fav_img { right:150px; }
+	/* summer3 end */
+
+	/* summer2 */
+	.ttl_summer { left:540px; }
+	.btn_summer_detail { left:645px; }
+
+	.cup_img_03 { bottom:215px; height:387px; left:1210px; width:165px; z-index:3; }
+	.cup_bg_03 { height:500px; left:1080px;  top:0; width:500px; z-index:2; }
+	.cup_ttl_03 {  height:79px; left:1310px; opacity:0; top:335px; width:139px; z-index:4; }
+
+	.cup_img_02 { bottom:90px; height:469px; left:1055px; width:220px; z-index:4; }
+	.cup_bg_02 { height:225px; left:1025px; top:74px; width:225px; z-index:2; }
+	.cup_ttl_02 {  height:59px; left:1225px;  top:460px; width:89px; z-index:4; }
+
+	.cup_img_01 { bottom:-140px; height:600px; left:880px;  width:250px; z-index:5; }
+	.cup_bg_01 {  bottom:-29px; height:669px; left:660px; width:669px; z-index:2; }
+	.cup_ttl_01 { bottom:19px; height:78px; left:1110px; width:165px; z-index:4; }
+
+	.summer2_fav_img { right:150px; }
+	/* summer2 end */
+
+	/* summer1 */
+	.summer1_mv_wrap { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/summer_bg.jpg") -310px repeat-x; }
+
+	.ttl_chill { height:114px; left:560px; top:184px; width:270px; }
+	.btn_chill_detail { left:560px; }
+	/* summer1 end */
+
+	/* spring2 */
+	.ttl_bloom { left:550px; }
+	.leaves { left:463px; }
+	.leaf_sprite01 { left:361px; }
+	.leaf_sprite02 { left:180px; }
+	.leaf_sprite03 { left:500px; top:190px; }
+	.leaf_sprite04 { left:590px; }
+	/* spring2 end */
+
+	.reserve_winter2_bg { height:294px; right:-20px; width:640px; }
+	.reserve_winter2_obje { height:294px; right:-20px; width:640px; }
+
+	.latte_cup01 { height:419px; width:550px; }
+	.latte_cup01_shadow { height:419px; width:550px; }
+	.latte_ttl01 { left:1240px; }
+	.choco_cup01 { height:414px; width:510px; }
+	.choco_cup01_shadow { height:414px; width:510px; }
+
+	.choco_ttl01 { left:1040px; top:377px; }
+}
+
+@media screen and (max-width:960px) {
+
+	/* 16autumn1 */
+
+	.autumn1_mv_wrap { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/m/autumn1_bg.jpg"); background-size:100% auto; height:716px; }
+	.main_autumn1_ani_wrap { height:100%; left:0; margin-left:0; width:100%; }
+
+	.poly_obje01 { height:144px; left:-40px; top:-34px; width:180px; }
+	.poly_obje02 { height:82px; right:70px; top:-34px; width:70px; }
+	.poly_obje03 { bottom:-53px; height:156px; right:-31px; width:151px; }
+	.cup_obje01 { height:123px; left:28px; top:282px; width:50px; }
+	.cup_obje02 { bottom:-20px; height:113px; left:437px; top:auto; width:51px; }
+	.cup_obje03 { height:75px; right:50px; top:375px; width:82px; }
+	.cup_obje04 { height:126px; right:156px; top:35px; width:68px; }
+	.cup_obje05 { bottom:-20px; left:200px; }
+
+	.ttl_teavana { left:50%; margin-left:-170px; top:69px; }
+
+	.btn_autumn_detail { left:50%; margin-left:-62.5px; top:632px; }
+
+	.tablecloth { height:340px; left:51%; margin-left:-240px; top:310px; width:480px; }
+
+	.teavana_float { height:120px; left:30px; top:580px; width:120px; }
+
+	.bev_img01 { height:270px; left:50%; margin-left:-150px; width:224px; top:217px; }
+	.bev_img01_shadow { background-size:3000px auto; left:32.5%; top:352px; width:200px; }
+	.bev_img02 { height:250px; left:50%; margin-left:-230px; width:217px; top:334px; }
+	.bev_img02_shadow { background-size:2665px auto; left:23%; top:368px; width:205px; }
+
+	.ttl_bev01 { left:50%; top:230px; margin-left:-30px; width:162px; }
+	.bev_img03 { height:270px; left:50%; margin-left:80px; width:165px; top:289px; }
+	.bev_img03_shadow { background-size:2700px auto; left:53%; top:397px; width:180px; }
+	.bev_img04 { height:170px; left:50%; margin-left:-10px; width:210px; top:380px; }
+	.bev_img04_shadow { background-size:2520px auto; left:50%; top:410px; width:180px; }
+	.ttl_bev02 { left:50%; margin-left:75px; top:500px; width:132px; }
+
+
+
+	.autumn_spoon { height:170px; left:50%; margin-left:-150px; top:475px; width:220px; }
+
+	#autumn1beanWrap { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/m/autumn_coffee_bg.jpg") center top; background-size:100% auto; height:850px; }
+	.autumn1_bean1,
+	.autumn1_bean1_bg { height:423px; left:50%; margin-left:-190px; top:40px; width:380px; }
+	.autumn1_bean1_ttl { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/m/autumn1_bean1_ttl.png") no-repeat; background-size:100% auto; height:76px; left:50%; margin-left:-145px; top:490px; width:290px; }
+	.autumn1_bean1_txt { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/m/autumn1_bean1_txt.png") no-repeat; background-size:100% auto; height:95px; left:50%; margin-left:-243.5px; top:595px; width:487px; }
+	.btn_autumn1_bean1 { left:50%; margin-left:-60.5px; right:auto; top:740px; width:121px; }
+	.btn_autumn1_bean1 a { font-size:16px; }
+	.autumn1_bean2,
+	.autumn1_bean2_bg { height:364px; left:50%; margin-left:-240px; top:80px; width:480px; }
+	.autumn1_bean2_ttl { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/m/autumn1_bean2_ttl.png") no-repeat; background-size:100% auto; height:76px; left:50%; margin-left:-134.5px; top:460px; width:269px; }
+	.autumn1_bean2_txt { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/m/autumn1_bean2_txt.png") no-repeat; background-size:100% auto; height:95px; left:50%; margin-left:-246.5px; top:575px; width:493px; }
+	.btn_autumn1_bean2 { left:50%; margin-left:-60.5px; right:auto; top:740px; width:121px; }
+	.btn_autumn1_bean2 a { font-size:16px; }
+
+	.res_bean01 { left:50%; margin-left:-254.5px; right:auto; top:485px; }
+	.res_bean02 { left:50%; margin-left:-75px; right:auto; top:485px; }
+	.res_bean03 { left:50%; margin-left:105px; right:auto; top:485px; }
+
+	.autumn1_fav_img { left:50%; margin-left:-306px; top:130px; right:auto; }
+
+	/* 16autumn1 end */
+	
+	/* summer3 */
+	.summer3_mv_wrap { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/m/summer_bg.jpg"); background-size:100% auto; height:716px; }
+	.main_summer3_ani_wrap { height:716px; }
+
+	.ttl_summer3 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/m/ttl_summer.png") no-repeat; background-size:100% auto; height:210px; left:50%; margin-left:-180px; position:absolute; top:100px; width:360px; z-index:11; }
+	.btn_summer3_detail { left:50%; margin-left:-60.5px; top:630px; width:121px; }
+	.btn_summer3_detail a { font-size:16px; }
+
+	.bnr_teaching { bottom:20px; height:144px; left:665px; width:208px; }
+
+	.sum3_cup_img_01 { height:274px; left:550px; top:250px; width:140px; }
+	.sum3_cup_bg_01 { left:830px; top:375px; }
+	.sum3_cup_ttl_01 { bottom:180px; height:72px; left:730px; width:140px; }
+
+	.sum3_cup_img_02 { height:274px; top:250px; width:140px; }
+	.sum3_cup_bg_02 { height:110px; left:1060px; top:280px; width:110px; }
+	.sum3_cup_ttl_02 { bottom:176px; height:72px; left:1140px; width:140px; }
+	
+	.sum3_cup_img_03 { height:289px; left:50%; margin-left:-70px; width:140px; }
+	.sum3_cup_bg_03 { height:106px; left:960px; top:275px; width:80px; }
+	.sum3_cup_ttl_03 { bottom:100px; height:72px; left:50%; margin-left:-70px; width:140px; }
+
+	#summer3beanWrap { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/m/summer3_coffee_bg.jpg") center top; background-size:100% auto; height:850px; }
+	.summer3_blend_bg { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/m/summer3_blend_bg.png") no-repeat; background-size:100% auto; height:417px; left:50%; margin-left:-280px; top:90px; width:600px; }
+	.summer3_blend_img { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/m/summer3_blend.png") no-repeat; background-size:100% auto; height:430px; left:50%; margin-left:-221.5px; top:70px; width:443px; }
+	.summer3_blend_txt1 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/m/summer3_blend_txt1.png") no-repeat; background-size:100% auto; height:74px; left:50%; margin-left:-124px; top:530px; width:268px; }
+	.summer3_blend_txt2 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/m/summer3_blend_txt2.png") no-repeat; background-size:100% auto; height:90px; left:50%; margin-left:-221px; top:620px; width:422px; }
+
+	.btn_summer3_bean { left:50%; margin-left:-60.5px; right:auto; top:740px; width:121px; }
+	.btn_summer3_bean a { font-size:16px; }
+
+	.summer3_fav_img { left:50%; margin-left:-230px; right:auto; width:460px; }
+	
+	.reserve_summer3_bg { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/m/reserve_summer3_bg.png") no-repeat; background-size:100% auto; height:440px; left:50%; margin-left:-311px; right:auto; top:340px; width:622px; }
+	.reserve_summer3_obje { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/m/reserve_summer3_obje.png") no-repeat; background-size:100% auto; height:316px; left:50%; margin-left:-311px; right:auto; top:400px; width:622px; }
+	/* summer3 end */
+
+	/* summer2 */
+	.summer2_mv_wrap { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/m/summer_bg.jpg"); background-size:100% auto; height:716px; }
+	.main_summer2_ani_wrap { height:716px; }
+
+	.ttl_summer { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/m/ttl_summer.png") no-repeat; background-size:100% auto; height:218px; left:50%; margin-left:-185px; position:absolute; top:20px; width:400px; z-index:11; }
+
+	.btn_summer_detail { left:50%; margin-left:-60.5px; top:630px; width:121px; }
+	.btn_summer_detail a { font-size:16px; }
+
+	.cup_img_03 { bottom:215px; height:387px; left:1025px; width:165px; z-index:3; }
+	.cup_bg_03 {  background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/m/cup_bg_03.png") no-repeat; background-size:1000% auto; height:400px; left:1080px;  top:0; width:400px; z-index:2; }
+	.cup_ttl_03 {  height:79px; left:1160px; opacity:0; top:400px; width:139px; z-index:4; }
+
+	.cup_img_02 { bottom:90px; height:469px; left:855px; width:220px; z-index:4; }
+	.cup_bg_02 { height:225px; left:825px; top:145px; width:225px; z-index:2; }
+	.cup_ttl_02 {  height:59px; left:1070px;  top:530px; width:89px; z-index:4; }
+
+	.cup_img_01 { bottom:-140px; height:600px; left:710px;  width:250px; z-index:5; }
+	.cup_bg_01 {  bottom:-29px; height:669px; left:475px; width:669px; z-index:2; }
+	.cup_ttl_01 { bottom:380px; height:78px; left:580px; width:165px; z-index:4; }
+
+	#summer2beanWrap { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/m/summer2_coffee_bg.jpg") center top; background-size:100% auto; height:850px; }
+	.summer2_blend_bg { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/m/summer2_blend_bg.png") no-repeat; background-size:100% auto; height:417px; left:50%; margin-left:-221.5px; top:70px; width:443px; }
+	.summer2_blend_img { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/m/summer2_blend.png") no-repeat; background-size:100% auto; height:417px; left:50%; margin-left:-221.5px; top:70px; width:443px; }
+	.summer2_blend_txt1 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/m/summer2_blend_txt1.png") no-repeat; background-size:100% auto; height:72px; left:50%; margin-left:-146px; top:530px; width:293px; }
+	.summer2_blend_txt2 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/m/summer2_blend_txt2.png") no-repeat; background-size:100% auto; height:99px; left:50%; margin-left:-190px; top:620px; width:380px; }
+
+	.btn_summer2_bean { left:50%; margin-left:-60.5px; right:auto; top:740px; width:121px; }
+	.btn_summer2_bean a { font-size:16px; }
+
+	.summer2_fav_img { left:50%; margin-left:-230px; right:auto; width:460px; }
+	
+	.reserve_summer2_bg { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/m/m_reserve_summer2_bg.png") no-repeat; background-size:100% auto; height:440px; left:50%; margin-left:-311px; right:auto; top:310px; width:622px; }
+	.reserve_summer2_obje { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/m/m_reserve_summer2_obje.png") no-repeat; background-size:100% auto; height:316px; left:50%; margin-left:-311px; right:auto; top:410px; width:622px; }
+	/* summer2 end */
+
+	/* summer1 */
+	.summer1_mv_wrap { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/m/summer_bg.jpg"); background-size:100% auto; height:716px; }
+	.main_summer1_ani_wrap { height:716px; }
+
+	.ttl_chill { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/m/ttl_chill.png") no-repeat; background-size:100% auto; height:218px; left:50%; margin-left:-200px; position:absolute; top:20px; width:400px; z-index:11; }
+
+	.btn_chill_detail { left:50%; margin-left:-60.5px; top:630px; width:121px; }
+	.btn_chill_detail a { font-size:16px; }
+
+	.img_cup03 { height:244px; top:258px; width:130px; }
+	.img_txt03 { height:210px; left:1085px; top:324px; width:210px; }
+	.ttl_cup03 { height:69px; left:1183px; top:253px; width:106px; }
+
+	.img_cup02 { height:238px; top:306px; width:130px; }
+	.img_txt02 { height:200px; left:720px; top:260px; width:200px; }
+	.ttl_cup02 { height:79px; left:757px; top:482px; width:83px; }
+
+	.img_cup01 { height:290px; left:50%; margin-left:-70px; top:500px; width:140px; }
+	.img_txt01 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/m/img_txt01.png") no-repeat; background-size:1200% auto; height:360px; left:50%; margin-left:-210px; top:120px; width:360px; }
+	.ttl_cup01 { height:78px; left:54%; width:112px; }
+
+	.layer_coldbrew { height:182px; left:34%; top:208px; width:140px; }
+	.layer_coldbrew p.layer_coldbrew_close { height:19px; left:112px; width:16px; }
+	.layer_coldbrew p.layer_coldbrew_detail { height:16px; left:40px; top:132px; width:57px; }
+
+	#summer1beanWrap { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/m/summer1_coffee_bg.jpg") center top; background-size:100% auto; height:850px; }
+	.summer1_blend_bg { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/m/summer1_blend_bg.png") no-repeat; background-size:100% auto; height:417px; left:50%; margin-left:-221.5px; top:70px; width:443px; }
+	.summer1_blend_img { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/m/summer1_blend.png") no-repeat; background-size:100% auto; height:417px; left:50%; margin-left:-221.5px; top:70px; width:443px; }
+	.summer1_blend_txt1 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/m/summer1_blend_txt1.png") no-repeat; background-size:100% auto; height:74px; left:50%; margin-left:-247px; top:530px; width:494px; }
+	.summer1_blend_txt2 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/m/summer1_blend_txt2.png") no-repeat; background-size:100% auto; height:90px; left:50%; margin-left:-237.5px; top:620px; width:475px; }
+
+	.btn_summer1_bean { left:50%; margin-left:-60.5px; right:auto; top:740px; width:121px; }
+	.btn_summer1_bean a { font-size:16px; }
+
+	.summer1_fav_img { left:50%; margin-left:-230px; right:auto; width:460px; }
+
+	.reserve_spring1_bg { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/m_spring1_reserve_bg.png") no-repeat; background-size:100% auto; height:397px; left:50%; margin-left:-311px; right:auto; top:350px; width:622px; }
+	.reserve_spring1_obje { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/m_spring1_reserve_obje.png") no-repeat; background-size:100% auto; height:316px; left:50%; margin-left:-311px; right:auto; top:410px; width:622px; }
+	/* summer1 end */
+
+	/* spring2 */
+	.spring2_mv_wrap { background:url("http://image.istarbucks.co.kr/common/img/main/spring2/m/bg_cherry.jpg") no-repeat; background-size:100% auto; height:716px; width:100%; }
+	.main_spring2_ani_wrap { background:none; height:716px; left:50%; margin-left:-48%; width:96%; }
+	.ttl_bloom { height:335px; left:50%; margin-left:-120px; width:240px; }
+	.leaves { left:50%; margin-left:-189px; top:5px; width:394px; }
+	.leaf_sprite01 { background-size:2000% auto; height:458px; left:50%; margin-left:-236px; top:47px; width:454px; }
+	.leaf_sprite02 { background-size:1600% auto; height:397px; left:50%; margin-left:-125px; top:-140px; width:400px; }
+	.leaf_sprite03 { background-size:2200% auto; height:415px; left:50%; margin-left:-50px; top:190px; width:440px; }
+	.leaf_sprite04 { background-size:1800% auto; height:266px; left:50%; margin-left:-330px; top:-60px; width:320px; }
+
+	.latte_cup01 { height:289px; left:-380px; top:100px; width:380px; }
+	.latte_cup01_shadow { height:289px; left:0; top:360px; width:380px; }
+	.choco_cup01 { height:284px; left:700px; top:100px; width:350px; }
+	.choco_cup01_shadow { height:284px; left:440px; top:520px; width:350px; }
+
+	.btn_cherry_detail { box-sizing:border-box; -webkit-box-sizing:border-box; height:50px; left:50%; margin-left:-90px; top:580px; width:180px; }
+	.btn_cherry_detail a { font-size:18px; line-height:50px; }
+
+	.latte_ttl01 { background:url("http://image.istarbucks.co.kr/common/img/main/spring2/m/latte_ttl01.png") no-repeat; background-size:100% auto; height:53px; left:50px; top:590px; width:221px; }
+	.choco_ttl01 { background:url("http://image.istarbucks.co.kr/common/img/main/spring2/m/choco_ttl01.png") no-repeat; background-size:100% auto; height:83px; left:440px; top:437px; width:186px; }
+
+	.spring2_fav_img { left:50%; margin-left:-230px; right:auto; width:460px; }
+	/* spring2 end */
+	
+	.winter2_main_visual_wrap { height:706px; top:10px; }
+	.main_winter2_ani_wrap { height:706px; }
+
+	.main_typo_wrap { height:482px; left:900px; width:480px; }
+
+	h2.winter2_typo { height:260px; left:130px; top:90px; width:230px; }
+	.btn_awaken_detail { left:1080px; top:340px; }
+
+	.typo_obj02 { height:124px; left:410px; width:110px; }
+	.typo_obj03 { height:380px; width:490px; }
+	.typo_leaf_wrap { left:400px; top:226px; }
+
+	.vanilla_flower { height:190px; left:530px; top:310px; width:260px; }
+	.spoon { height:160px; right:1035px; width:120px; }
+
+	.vanilla_cup { height:280px; width:360px; }
+	.nuts_cup { height:270px; width:290px; }
+
+	.vanilla_cup_txt { right:790px; top:560px; }
+	.nuts_cup_txt { right:1140px; top:292px; }
+
+	.cup_nuts { right:1130px; }
+	.nuts_deco { right:490px; top:380px; }
+	.nuts { right:624px; top:594px; z-index:4; }
+
+	#winter2beanWrap { height:850px; }
+
+	.winter2_blend_bg { background:url("http://image.istarbucks.co.kr/common/img/main/winter2/m_winter2_blend_bg.png") no-repeat; background-size:100% auto; height:711px; left:50%; margin-left:-320px; top:-80px; width:640px; }
+	.winter2_blend_img { background:url("http://image.istarbucks.co.kr/common/img/main/winter2/m_winter2_blend.png") no-repeat; background-size:100% auto; height:711px; left:50%; margin-left:-320px; top:-80px; width:640px; }
+	.winter2_blend_txt1 { background:url("http://image.istarbucks.co.kr/common/img/main/winter2/m_winter2_blend_txt1.png") no-repeat; background-size:100% auto; height:75px; left:50%; margin-left:-228px; top:530px; width:456px; }
+	.winter2_blend_txt2 { background:url("http://image.istarbucks.co.kr/common/img/main/winter2/m_winter2_blend_txt2.png") no-repeat; background-size:100% auto; height:120px; left:50%; margin-left:-216px; top:630px; width:432px; }
+
+	.btn_winter2_bean { left:50%; margin-left:-61px; top:780px; width:122px; }
+
+	.reserve_winter2_bg { background:url("http://image.istarbucks.co.kr/common/img/main/winter2/mob_winter2_reserve_bg.png") no-repeat; background-size:100% auto; height:316px; left:50%; margin-left:-311px; right:auto; top:400px; width:622px; }
+	.reserve_winter2_obje { background:url("http://image.istarbucks.co.kr/common/img/main/winter2/mob_winter2_reserve_obje.png") no-repeat; background-size:100% auto; height:316px; left:50%; margin-left:-311px; right:auto; top:400px; width:622px; }
+}
+
+@media screen and (max-width:720px) {
+
+	/* summer3 */
+	.summer3_mv_wrap { height:100%; }
+	.main_summer3_ani_wrap { height:100%; }
+
+	.ttl_summer3 { height:162px; margin-left:-155px; width:310px; }
+	.bnr_teaching { bottom:10px; left:710px; width:208px; }
+
+	.sum3_cup_img_01 { height:294px; top:210px; width:150px; }
+	.sum3_cup_img_02 { height:294px; top:210px; width:150px; }
+	.sum3_cup_img_03 { height:310px; margin-left:-75px; width:150px; }
+
+	.sum3_cup_ttl_01 { bottom:210px; }
+	.sum3_cup_ttl_02 { bottom:206px; left:1150px; }
+	.sum3_cup_ttl_03 { bottom:115px; }
+
+	.sum3_cup_bg_01 { top:345px; }
+	.sum3_cup_bg_02 { left:1065px; top:245px; }
+	.sum3_cup_bg_03 { top:230px; }
+
+
+	/* summer2 */
+	.summer2_mv_wrap { height:100%; }
+	.main_summer2_ani_wrap { height:100%; }
+
+	.ttl_summer { height:140px; margin-left:-130px; width:260px; }
+
+	.cup_img_03 { bottom:215px; height:387px; left:1000px; width:135px; z-index:3; }
+	.cup_bg_03 { height:400px; left:955px;  top:0; width:400px; z-index:2; }
+	.cup_ttl_03 {  height:79px; left:1160px; opacity:0; top:380px; width:109px; z-index:4; }
+
+	.cup_img_02 { bottom:90px; height:469px; left:865px; width:190px; z-index:4; }
+	.cup_bg_02 { height:225px; left:835px; top:145px; width:225px; z-index:2; }
+	.cup_ttl_02 {  height:59px; left:1080px;  top:480px; width:79px; z-index:4; }
+
+	.cup_img_01 { bottom:-190px; height:600px; left:745px;  width:220px; z-index:5; }
+	.cup_bg_01 {  bottom:-95px; height:669px; left:492px; width:669px; z-index:2; }
+	.cup_ttl_01 { bottom:330px; height:78px; left:580px; width:135px; z-index:4; }
+
+	.summer2_fav_img { left:50%; margin-left:-150px; right:auto; width:300px; }
+	/* summer2 end */
+
+	/* spring2 */
+	.spring2_mv_wrap { height:706px; }
+	.main_spring2_ani_wrap { height:706px; }
+
+	.latte_cup01_shadow { left:-60px; }
+	.choco_cup01_shadow { top:510px; }
+
+	.latte_ttl01 { left:0; }
+	.choco_ttl01 { left:410px; }
+	/* spring2 end */
+
+	/* spring */
+	.spring_typo_wrap { height:224px; left:970px; width:400px; }
+	.btn_macchiato_detail { left:1080px; top:280px; }
+	
+	.caramel_cup,
+	.latte_cup { width:385px; }
+	.latte_cup { top:600px; }
+
+	.caramel_cup_txt { right:1090px; top:330px; }
+	.latte_cup_txt { right:960px; top:490px; }
+
+	.spring_navi { right:720px; top:390px; }
+
+	.bn_comming_wrap { left:700px; top:480px; }
+	.bn_comming_wrap a.bn_comming { height:150px; width:150px; }
+	/* spring end */
+
+	.main_typo_wrap { height:402px; width:400px; }
+	h2.winter2_typo { height:212px; left:100px; top:70px; width:190px; }
+
+	.btn_awaken_detail { left:1030px; top:270px; }
+	.typo_obj02 { height:90px; left:300px; top:48px; width:80px; }
+	.typo_obj03 { height:280px; top:100px; width:360px; }
+
+	.spoon { height:130px; right:1035px; top:200px; width:100px; }
+
+	.typo_leaf_wrap { height:182px; left:330px; top:160px; }
+	.typo_leaf01 { height:66px; width:28px; }
+	.typo_leaf02 { height:83px; left:18px; width:60px; }
+	.typo_leaf03 { height:62px; left:23px; top:92px; width:18px; }
+	.typo_leaf04 { height:73px; left:33px; top:59px; width:52px; }
+	.typo_leaf05 { height:33px; left:50px; top:44px; width:10px; }
+	.typo_leaf06 { height:61px; left:58px; top:20px; width:27px; }
+
+	.vanilla_flower { left:630px; }
+
+	.cup_nuts { height:200px; right:1070px; top:542px; width:180px; }
+	.nuts { height:140px; right:714px; top:594px; width:230px; }
+
+	.vanilla_cup { height:220px; width:280px; }
+	.vanilla_cup_txt { right:820px; top:440px; }
+
+	.nuts_cup { height:220px; width:240px; }
+	.nuts_cup_txt { right:1120px; top:272px; }
+
+	.nuts_deco { right:670px; top:330px; }
+}
+
+@media screen and (max-width:640px) {
+
+	/* 16autumn1 */
+	.main_autumn1_ani_wrap { padding-top:12px; }
+	.tablecloth { height:290px; margin-left:-215px; top:300px; width:430px; }
+	.ttl_teavana { top:60px; }
+
+	.bev_img01 { height:270px; left:50%; margin-left:-120px; width:214px; top:217px; }
+	.bev_img01_shadow { background-size:3000px auto; left:32.5%; top:352px; width:200px; }
+	.bev_img02 { height:250px; left:50%; margin-left:-200px; width:207px; top:334px; }
+	.bev_img02_shadow { background-size:2665px auto; left:23%; top:368px; width:205px; }
+	
+
+	.bev_img03 { height:260px; left:50%; margin-left:50px; width:165px; top:279px; }
+	.bev_img03_shadow { background-size:2700px auto; left:53%; top:410px; width:170px; }
+	.bev_img04 { height:160px; left:50%; margin-left:-30px; width:210px; top:400px; }
+	.bev_img04_shadow { background-size:2520px auto; left:50%; top:430px; width:170px; }
+	
+	.ttl_bev01 { left:50%; top:220px; margin-left:-10px; width:152px; }
+	.ttl_bev02 { left:50%; margin-left:75px; top:470px; width:122px; }
+
+	.autumn_spoon { height:120px; left:50%; margin-left:-125px; top:470px; width:150px; }
+	
+	.teavana_float { left:50%; margin-left:-220px; top:570px; z-index:10; }
+	.btn_autumn_detail { top:600px; }
+	
+	.poly_obje01,
+	.poly_obje02,
+	.poly_obje03,
+	.poly_obje04,
+	.cup_obje01,
+	.cup_obje02,
+	.cup_obje03,
+	.cup_obje04,
+	.cup_obje05{ display:none; }
+
+	#autumn1_img1 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/m/autumn1_img01.jpg") center center no-repeat #000; background-size:cover; }
+	#autumn1_img2 { background:url("http://image.istarbucks.co.kr/common/img/main/16autumn1/m/autumn1_img02.jpg") center center no-repeat #000; background-size:cover; }
+
+	.autumn1_bean2_ttl { height:68px; margin-left:-120px; top:480px; width:240px; }
+	.autumn1_bean2_txt { height:84px; margin-left:-215px; top:585px; width:430px; }
+
+	.res_bean01,
+	.res_bean02,
+	.res_bean03 { height:130px; top:465px; width:130px; }
+
+	.res_bean01 { margin-left:-214.5px; }
+	.res_bean02 { margin-left:-65px; }
+	.res_bean03 { margin-left:85px; }
+
+	.autumn1_fav_img { height:384px; margin-left:-230px; width:460px; }
+
+	/* 16autumn1 end */
+
+	/* summer3 */
+	.summer3_mv_wrap { background-size:100% 100%; height:100%; }
+	.main_summer3_ani_wrap { height:100%; }
+
+	.main_summer3_img1 { left:-120px; top:-50px; width:320px; }
+	.main_summer3_img2 { bottom:-240px; right:-390px; width:570px; }
+
+	.ttl_summer3 { height:162px; margin-left:-155px; width:310px; }
+	.bnr_teaching { bottom:10px; left:710px; width:208px; }
+
+	.sum3_cup_img_01 { height:294px; top:250px; width:130px; }
+	.sum3_cup_img_02 { height:294px; top:250px; width:130px; }
+	.sum3_cup_img_03 { height:310px; margin-left:-65px; width:130px; }
+
+	.sum3_cup_ttl_01 { bottom:210px; left:760px; width:120px; }
+	.sum3_cup_ttl_02 { bottom:206px; left:1125px; width:120px; }
+	.sum3_cup_ttl_03 { bottom:120px; margin-left:-60px; width:120px; }
+
+	.sum3_cup_bg_01 { left:855px; top:365px; }
+	.sum3_cup_bg_02 { left:1050px; top:275px; width:100px; }
+	.sum3_cup_bg_03 { top:280px; width:70px; }
+	
+	#summer3beanWrap { height:600px; }
+	.summer3_blend_bg { height:222px; margin-left:-160px; top:120px; width:320px; }
+	.summer3_blend_img { height:291px; margin-left:-150px; top:50px; width:300px; }
+	.summer3_blend_txt1 { height:54px; margin-left:-100px; top:350px; width:200px; }
+	.summer3_blend_txt2 { height:60px; margin-left:-140px; top:420px; width:280px; }
+
+	.btn_summer3_bean { top:500px; }
+
+	.summer3_fav_img { left:50%; margin-left:-150px; right:auto; width:300px; }
+
+	.reserve_summer3_bg { margin-left:-240px; top:380px; width:480px; }
+	.reserve_summer3_obje { margin-left:-240px; top:420px; width:480px; }
+	
+	#summer3_img { background:url("http://image.istarbucks.co.kr/common/img/main/16summer3/m/summer3_img.jpg") center center no-repeat #000; background-size:cover; }
+	/* summer3 end */
+
+	/* summer2 */
+	.summer2_mv_wrap { height:100%;}
+	.main_summer2_ani_wrap {height:100%;}
+
+	.ttl_summer { height:140px; margin-left:-130px; width:260px; }
+
+	.cup_img_03 { bottom:132px; height:387px; left:1010px; width:90px; z-index:3; }
+	.cup_bg_03 { height:400px; left:955px;  top:15px; width:400px; z-index:2; }
+	.cup_ttl_03 {  height:79px; left:1070px; opacity:0; top:355px; width:100px; z-index:4; }
+
+	.cup_img_02 { bottom:10px; height:469px; left:915px; width:140px; z-index:4; }
+	.cup_bg_02 { height:225px; left:850px; top:165px; width:225px; z-index:2; }
+	.cup_ttl_02 {  height:59px; left:1040px;  top:480px; width:70px; z-index:4; }
+
+	.cup_img_01 { bottom:-150px; height:600px; left:810px;  width:170px; z-index:5; }
+	.cup_bg_01 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/m/cup_bg_01.png") no-repeat; background-size:1000% auto; bottom:-80px; height:400px; left:690px; width:400px; z-index:2; }
+	.cup_ttl_01 { bottom:378px; height:78px; left:755px; width:110px; z-index:4; }
+	
+	#summer2beanWrap { height:600px; }
+	.summer2_blend_bg { height:290px; margin-left:-150px; top:50px; width:300px; }
+	.summer2_blend_img { height:290px; margin-left:-150px; top:50px; width:300px; }
+	.summer2_blend_txt1 { height:50px; margin-left:-100px; top:350px; width:200px; }
+	.summer2_blend_txt2 { height:60px; margin-left:-140px; top:420px; width:280px; }
+
+	.btn_summer1_bean { top:500px; }
+
+	.summer2_fav_img { left:50%; margin-left:-150px; right:auto; width:300px; }
+
+	.reserve_summer2_bg { margin-left:-240px; top:360px; width:480px; }
+	.reserve_summer2_obje { margin-left:-240px; top:430px; width:480px; }
+	
+	#summer2_img { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/m/summer2_img.jpg") center center no-repeat #000; background-size:auto 100%; }
+	/* summer2 end */
+	
+	/* summer1 */
+	.summer1_mv_wrap { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/m/summer_bg.jpg") center top; background-size:100% auto; height:716px; }
+
+	.ttl_chill { height:160px; margin-left:-150px; top:40px; width:300px; }
+
+	.img_cup03 { height:204px; top:288px; width:110px; }
+	.img_txt03 { height:150px; left:1075px; top:364px; width:150px; }
+	.ttl_cup03 { height:62px; left:56.5%; top:263px; width:95px; }
+
+	.ttl_cup02 { height:71px; left:39%; width:74px; }
+
+	.ttl_cup01 { height:70px; left:53%; width:100px; }
+
+	.layer_coldbrew { left:39%; }
+
+	#summer1beanWrap { height:600px; }
+	.summer1_blend_bg { height:290px; margin-left:-150px; top:50px; width:300px; }
+	.summer1_blend_img { height:290px; margin-left:-150px; top:50px; width:300px; }
+	.summer1_blend_txt1 { height:46px; margin-left:-150px; top:350px; width:300px; }
+	.summer1_blend_txt2 { height:56px; margin-left:-140px; top:420px; width:280px; }
+
+	.btn_summer1_bean { top:500px; }
+
+	#summer1_img { background:url("http://image.istarbucks.co.kr/common/img/main/16summer1/m/summer1_img.jpg") center center no-repeat #000; background-size:auto 100%; }
+	/* summer1 end */
+
+	/* spring2 */
+	.spring2_mv_wrap { background-size:auto; height:886px; }
+	.main_spring2_ani_wrap { height:886px; }
+
+	.btn_cherry_detail { top:760px; }
+
+	.latte_cup01_shadow { left:-40px; top:380px; }
+	.choco_cup01_shadow { left:250px; top:600px; }
+
+	.latte_ttl01 { height:47px; left:30px; top:620px; width:200px; }
+	.choco_ttl01 { height:72px; left:282px; top:530px; width:162px; }
+
+	.spring2_fav_img { left:50%; margin-left:-230px; right:auto; width:460px; }
+	/* spring2 end */
+
+	/* spring */
+	.spring1_main_visual_wrap { background:url("http://image.istarbucks.co.kr/common/img/main/spring/m_spring1_bg.jpg") center top; height:885px; }
+	.main_spring1_ani_wrap { height:885px; }
+	.spring_typo_wrap { left:50%; margin-left:-200px; top:30px; }
+	.spring_obj { display:none; }
+
+	.btn_macchiato_detail { height:50px; left:50%; margin-left:-100px; top:780px; width:200px; }
+	.btn_macchiato_detail a { font-size:20px; line-height:50px; }
+
+	.caramel_cup,
+	.latte_cup { width:430px; }
+	.latte_cup { top:730px; }
+
+	.caramel_cup_txt { right:770px; top:340px; }
+	.latte_cup_txt { right:1050px; top:640px; }
+
+	.spring_navi { right:770px; top:520px; }
+
+	#spring1_img { background:url("http://image.istarbucks.co.kr/common/img/main/spring/m_spring1_img.jpg") center center no-repeat #000; background-size:auto 100%; }
+
+	#spring1beanWrap { background:url("http://image.istarbucks.co.kr/common/img/main/spring/m_spring1_coffee_bg.jpg") center top repeat; height:800px; }
+
+	.spring1_blend_txt1 { margin-left:-200px; width:400px; }
+	.spring1_blend_txt2 { margin-left:-180px; width:360px; }
+
+	.reserve_spring1_bg { margin-left:-240px; top:380px; width:480px; }
+	.reserve_spring1_obje { margin-left:-240px; top:430px; width:480px; }
+
+	.spring_fav_img { left:50%; margin-left:-230px; right:auto; width:460px; }
+
+	.bn_comming_wrap { left:1150px; top:410px; }
+	.bn_comming_wrap a.bn_comming { height:150px; width:150px; }
+	/* spring end */
+	
+	
+	.main_typo_wrap { left:50%; margin-left:-200px; }
+	h2.winter2_typo { height:246px; left:50%; margin-left:-110px; top:80px; width:220px; }
+
+	.spoon { right:935px; top:390px; }
+	.vanilla_flower { height:153px; left:690px; top:390px; width:220px; }
+
+	.vanilla_cup_txt { right:1030px; top:490px; }
+
+	.nuts_cup_txt { right:790px; top:362px; }
+
+	.cup_nuts { height:180px; right:1090px; top:552px; width:160px; }
+
+	.btn_awaken_detail { height:50px; left:50%; margin-left:-100px; top:580px; width:200px; }
+	.btn_awaken_detail a { font-size:20px; line-height:50px; }
+
+	#winter2_img { background:url("http://image.istarbucks.co.kr/common/img/main/winter2/m_winter2_img.jpg") center center no-repeat #000; background-size:auto 100%; }
+
+	#winter2beanWrap { height:800px; }
+	.winter2_blend_bg { height:600px; margin-left:-270px; top:-40px; width:540px; }
+	.winter2_blend_img { height:600px; margin-left:-270px; top:-40px; width:540px; }
+	.winter2_blend_txt1 { height:57px; margin-left:-175px; top:500px; width:350px; }
+	.winter2_blend_txt2 { height:92px; margin-left:-165px; top:580px; width:330px; }
+	.btn_winter2_bean { top:710px; }
+
+	.reserve_winter2_bg,
+	.reserve_winter2_obje { height:244px; margin-left:-240px; top:390px; width:480px; }
+}
+
+@media screen and (max-width:480px) {
+
+	/* 16autumn1 */
+
+	.ttl_teavana { height:115px; margin-left:-130px; width:260px; top:45px; }
+
+	.tablecloth { height:230px; margin-left:-155px; width:310px; top:290px; }
+
+	.bev_img01 { height:270px; left:50%; margin-left:-75px; width:174px; top:207px; }
+	.bev_img01_shadow { background-size:3000px auto; left:32.5%; top:352px; width:200px; }
+	.bev_img02 { height:200px; left:50%; margin-left:-140px; width:167px; top:304px; }
+	.bev_img02_shadow { background-size:2665px auto; left:23%; top:368px; width:205px; }
+	
+	.bev_img03 { height:200px; left:50%; margin-left:50px; width:115px; top:269px; }
+	.bev_img03_shadow { background-size:2700px auto; left:53%; top:410px; width:180px; }
+	.bev_img04 { height:150px; left:50%; margin-left:-10px; width:160px; top:340px; }
+	.bev_img04_shadow { background-size:2520px auto; left:50%; top:430px; width:180px; }
+	
+	.ttl_bev01 { height:75px; left:50%; top:490px; margin-left:-145px; width:144px; }
+	.ttl_bev02 { height:75px; left:50%; margin-left:20px; top:490px; width:121px; }
+
+	.autumn_spoon { height:100px; left:50%; margin-left:-85px; top:410px; width:130px; }
+	
+	.teavana_float { height:90px; left:50%; margin-left:20px; top:175px; z-index:10; width:90px; }
+	.btn_autumn_detail { top:585px; }
+
+
+	#autumn1beanWrap { height:600px; }
+	.autumn1_bean1,
+	.autumn1_bean1_bg { margin-left:-150px; top:20px; width:300px; }
+	.autumn1_bean1_ttl { margin-left:-110px; top:370px; width:220px; }
+	.autumn1_bean1_txt { margin-left:-150px; top:455px; width:300px; }
+	.btn_autumn1_bean1 { top:530px; }
+	.autumn1_bean2,
+	.autumn1_bean2_bg { margin-left:-190px; top:30px; width:380px; }
+	.autumn1_bean2_ttl { margin-left:-110px; top:330px; width:220px; }
+	.autumn1_bean2_txt { margin-left:-150px; top:415px; width:300px; }
+	.btn_autumn1_bean2 { top:520px; }
+
+	.res_bean01,
+	.res_bean02,
+	.res_bean03 { height:100px; top:385px; width:100px; }
+
+	.res_bean01 { margin-left:-155px; }
+	.res_bean02 { margin-left:-50px; }
+	.res_bean03 { margin-left:55px; }
+
+	.autumn1_fav_img { height:264px; margin-left:-160px; top:90px; width:320px; }
+
+	
+
+	/* 16autumn1 end */
+	
+	/* summer3 */
+	.main_summer3_img1 { left:-120px; top:-80px; width:300px; }
+	.main_summer3_img2 { bottom:-270px; right:-350px; width:520px; }
+
+	.ttl_summer3 { height:162px; margin-left:-130px; width:260px; }
+	.bnr_teaching { bottom:60px; left:50%; margin-left:-100px; width:180px; }
+
+	.sum3_cup_img_01 { height:294px; top:190px; width:120px; }
+	.sum3_cup_img_02 { height:294px; top:190px; width:120px; }
+	.sum3_cup_img_03 { height:310px; margin-left:-60px; width:120px; }
+
+	.sum3_cup_ttl_01 { bottom:220px; left:820px; width:120px; }
+	.sum3_cup_ttl_02 { bottom:216px; left:1060px; width:120px; }
+	.sum3_cup_ttl_03 { bottom:205px; margin-left:-60px; width:120px; }
+
+	.sum3_cup_bg_01 { left:860px; top:300px; }
+	.sum3_cup_bg_02 { left:1050px; top:215px; width:90px; }
+	.sum3_cup_bg_03 { top:210px; width:70px; }
+	
+	#summer3beanWrap { height:600px; }
+	.summer3_blend_bg { height:222px; margin-left:-160px; top:120px; width:320px; }
+	.summer3_blend_img { height:291px; margin-left:-150px; top:50px; width:300px; }
+	.summer3_blend_txt1 { height:54px; margin-left:-100px; top:350px; width:200px; }
+	.summer3_blend_txt2 { height:60px; margin-left:-140px; top:420px; width:280px; }
+
+	.btn_summer3_bean { top:500px; }
+
+	.summer3_fav_img { left:50%; margin-left:-150px; right:auto; width:300px; }
+
+	.reserve_summer3_bg { height:260px; margin-left:-180px; top:330px; width:360px; }
+	.reserve_summer3_obje { height:183px; margin-left:-180px; top:365px; width:360px; }
+	
+	#summer3_img { background-size:auto 100%; }
+	/* summer3 end */
+
+	/* summer2 */
+	.summer2_mv_wrap { height:100%;}
+	.main_summer2_ani_wrap {height:100%;}
+
+	.ttl_summer { height:140px; margin-left:-130px; width:260px; }
+
+	.cup_img_03 { bottom:130px; height:387px; left:1015px; width:90px; z-index:3; }
+	.cup_bg_03 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/m/cup_bg_03.png") no-repeat; background-size:1000% auto; height:300px; left:940px;  top:12px; width:300px; z-index:2; }
+	.cup_ttl_03 {  height:79px; left:1065px; opacity:0; top:365px; width:75px; z-index:2; }
+
+	.cup_img_02 { bottom:47px; height:420px; left:949px; width:110px; z-index:4; }
+	.cup_bg_02 { height:225px; left:925px; top:242px; width:113px; z-index:3; }
+	.cup_ttl_02 {  height:59px; left:1140px;  top:444px; width:50px; z-index:4; }
+
+	.cup_img_01 { bottom:55px; height:370px; left:880px;  width:120px; z-index:5; }
+	.cup_bg_01 {background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/m/cup_bg_01.png") no-repeat; background-size:1000% auto; bottom:85px; height:300px; left:980px; margin-left:-11%; width:300px; z-index:3; }
+	.cup_ttl_01 { bottom:354px; height:78px; left:828px; width:85px; z-index:3; }
+
+	.summer2_fav_img { left:50%; margin-left:-150px; right:auto; width:300px; }
+
+	.reserve_summer2_bg { height:260px; margin-left:-180px; top:330px; width:360px; }
+	.reserve_summer2_obje { height:183px; margin-left:-180px; top:385px; width:360px; }
+	/* summer2 end */
+
+	/* summer1 */
+	.ttl_chill { height:140px; margin-left:-130px; width:260px; }
+
+	.img_cup03 { height:170px; top:318px; width:90px; }
+	.img_txt03 { height:130px; left:53%; top:380px; width:130px; }
+	.ttl_cup03 { height:47px; left:54%; top:272px; width:72px; }
+
+	.img_cup02 { height:200px; width:110px; }
+	.img_txt02 { height:160px; left:38%; top:290px; width:160px; }
+	.ttl_cup02 { height:54px; left:43%; top:512px; width:56px; }
+
+	.img_cup01 { height:250px; margin-left:-60px; width:120px; }
+	.img_txt01 { height:320px; margin-left:-190px; width:320px; }
+	.ttl_cup01 { height:53px; top:523px; width:76px; }
+
+	.layer_coldbrew { height:145px; left:42.5%; width:110px; }
+	.layer_coldbrew p.layer_coldbrew_close { height:15px; left:89px; width:12px; }
+	.layer_coldbrew p.layer_coldbrew_detail { height:13px; left:31px; top:103px; width:45px; }
+
+	.summer1_fav_img { left:50%; margin-left:-150px; right:auto; width:300px; }
+	/* summer1 end */
+
+	/* spring2 */
+	.spring2_mv_wrap { height:800px; }
+	.main_spring2_ani_wrap { height:800px; }
+
+	.ttl_bloom { height:280px; margin-left:-100px; top:49px; width:200px; }
+	.leaves { margin-left:-159px; top:-6px; width:332px; }
+	.leaf_sprite01 { height:383px; margin-left:-223px; top:49px; width:380px; }
+	.leaf_sprite03 { margin-left:-150px; top:150px; }
+	.leaf_sprite04 { margin-left:-310px; top:-30px; }
+
+	.btn_cherry_detail { top:680px; }
+
+	.latte_cup01_shadow { left:-60px; top:310px; }
+	.choco_cup01_shadow { left:170px; top:540px; }
+
+	.latte_ttl01 { height:39px; left:20px; top:540px; width:160px; }
+	.choco_ttl01 { height:61px; left:205px; top:480px; width:136px; }
+
+	.spring2_fav_img { left:50%; margin-left:-150px; right:auto; width:300px; }
+	/* spring2 end */
+	
+	/* spring */
+	.spring1_main_visual_wrap { height:800px; top:10px; }
+	.spring_typo_wrap { margin-left:-140px; top:30px; }
+	
+	.caramel_cup,
+	.latte_cup { width:350px; }
+	.latte_cup { top:860px; }
+
+	.spring_navi { right:840px; top:440px; }
+
+	.caramel_cup_txt { right:840px; top:250px; }
+	.latte_cup_txt { right:1050px; top:520px; }
+
+	.btn_macchiato_detail { top:700px; }
+
+	#spring1beanWrap { height:600px; }
+	.spring1_blend_bg { height:444px; margin-left:-200px; top:-40px; width:400px; }
+	.spring1_blend_img { height:444px; margin-left:-200px; top:-40px; width:400px; }
+	.spring1_blend_txt1 { height:70px; margin-left:-140px; top:350px; width:280px; }
+	.spring1_blend_txt2 { height:39px; margin-left:-130px; top:440px; width:260px; }
+	.btn_spring1_bean { top:520px; }
+
+	.reserve_spring1_bg { height:230px; margin-left:-180px; top:340px; width:360px; }
+	.reserve_spring1_obje { height:183px; margin-left:-180px; top:370px; width:360px; }
+
+	.spring_fav_img { left:50%; margin-left:-150px; right:auto; width:300px; }
+
+	.bn_comming_wrap { left:1050px; top:340px; }
+	.bn_comming_wrap a.bn_comming { height:120px; width:120px; }
+	/* spring end */
+
+	.winter2_main_visual_wrap { height:696px; top:10px; }
+
+	.main_typo_wrap { height:336px; margin-left:-160px; width:320px; }
+	h2.winter2_typo { height:210px; margin-left:-95px; top:55px; width:190px; }
+	.typo_obj02 { height:70px; left:250px; top:38px; width:60px; }
+	.typo_obj03 { height:234px; left:10px; top:70px; width:300px; }
+
+	.typo_leaf_wrap { left:240px; top:100px; }
+
+	.nuts_cup_txt { right:850px; top:332px; }
+
+	.vanilla_cup_txt { right:1030px; top:510px; }
+
+	.spoon { right:955px; }
+	.cup_nuts { right:1050px; }
+	.vanilla_flower { left:730px; }
+
+	#winter2beanWrap { height:630px; }
+	.winter2_blend_bg { height:400px; margin-left:-180px; top:-10px; width:360px; }
+	.winter2_blend_img { height:400px; margin-left:-180px; top:-10px; width:360px; }
+	.winter2_blend_txt1 { height:46px; margin-left:-140px; top:380px; width:280px; }
+	.winter2_blend_txt2 { height:72px; margin-left:-130px; top:450px; width:260px; }
+	.btn_winter2_bean { top:550px; }
+
+	.reserve_winter2_bg,
+	.reserve_winter2_obje { height:184px; margin-left:-180px; top:370px; width:360px; }
+}
+
+@media screen and ( max-width:320px ) {
+
+	/* summer3 */
+	.ttl_summer3 { height:162px; margin-left:-115px; width:230px; }
+
+	.sum3_cup_img_01 { height:294px; top:190px; width:115px; }
+	.sum3_cup_img_02 { height:294px; top:190px; width:115px; }
+	.sum3_cup_img_03 { height:310px; margin-left:-55px; width:115px; }
+
+	.sum3_cup_ttl_01 { bottom:230px; left:840px; width:110px; }
+	.sum3_cup_ttl_02 { bottom:226px; left:1055px; width:110px; }
+	.sum3_cup_ttl_03 { bottom:215px; margin-left:-55px; width:110px; }
+
+	.sum3_cup_bg_01 { left:860px; top:300px; }
+	.sum3_cup_bg_02 { left:1050px; top:215px; width:90px; }
+	.sum3_cup_bg_03 { top:200px; width:70px; }
+
+	.reserve_summer3_bg { height:217px; margin-left:-170px; top:330px; width:340px; }
+	.reserve_summer3_obje { height:173px; margin-left:-170px; top:370px; width:340px; }
+	/* summer3 end */
+
+	/* summer2 */
+	.ttl_summer { height:160px; margin-left:-150px; top:40px; width:300px; }
+
+	.cup_img_03 { bottom:130px; height:387px; left:1015px; width:90px; z-index:3; }
+	.cup_bg_03 { background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/m/cup_bg_03.png") no-repeat; background-size:1000% auto; height:200px; left:960px;  top:80px; width:200px; z-index:2; }
+	.cup_ttl_03 {  height:79px; left:1065px; opacity:0; top:365px; width:75px; z-index:2; }
+
+	.cup_img_02 { bottom:47px; height:420px; left:949px; width:110px; z-index:4; }
+	.cup_bg_02 { height:225px; left:925px; top:242px; width:113px; z-index:3; }
+	.cup_ttl_02 {  height:59px; left:1140px;  top:444px; width:50px; z-index:4; }
+
+	.cup_img_01 { bottom:55px; height:370px; left:880px;  width:120px; z-index:5; }
+	.cup_bg_01 {background:url("http://image.istarbucks.co.kr/common/img/main/16summer2/m/cup_bg_01.png") no-repeat; background-size:1000% auto; bottom:85px; height:267px; left:50%; margin-left:-170px; width:267px; z-index:3; }
+	.cup_ttl_01 { bottom:354px; height:78px; left:828px; width:85px; z-index:3; }
+
+	.reserve_summer2_bg { height:217px; margin-left:-170px; top:320px; width:340px; }
+	.reserve_summer2_obje { height:173px; margin-left:-170px; top:370px; width:340px; }
+	/* summer2 end */
+
+	/* spring */
+	.caramel_cup,
+	.latte_cup { width:300px; }
+	.spring_navi { right:830px; top:430px; }
+
+	.caramel_cup_txt { right:840px; top:250px; }
+	.latte_cup_txt { right:1010px; top:510px; }
+
+	.bn_comming_wrap { top:350px; }
+	.bn_comming_wrap a.bn_comming { height:100px; width:100px; }
+	/* spring end */
+
+	.winter2_main_visual_wrap { height:660px; top:10px; }
+
+	.reserve_spring1_bg { height:217px; margin-left:-170px; top:340px; width:340px; }
+	.reserve_spring1_obje { height:173px; margin-left:-170px; top:370px; width:340px; }
+}

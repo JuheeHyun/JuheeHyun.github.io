@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="UTF-8" />
+  <title>Document</title>
+  <style>
+    h1{color: #fa0; width: 100%; border-bottom: 1px solid #333; margin-bottom: 1rem; color: #fa0; }
+    h1:hover{color: #a0c;}
+    h1:before{content: "이전에 작성"; color: #f00; font-size: 0.5rem;}
+    h1:after{content: "*"; color: #04f; font-size: 0.6rem;}
+    
+    .clearfix, .clearfix:before, .clearfix:after{content:""; display:block; clear:both;}
+    
+/*    .clearfix, .clearfix:after{content:""; display: block; clear: both;}*/
+    
+    
+    .first_box{width:40%; height:200px; float:left; background-color:#0af;}
+    .second_box{width:40%; height:200px; float:left; background-color:#f0a;}
+    .last_box{width:100%; height:auto; background-color:#ccc; margin-top: 30px;}
+
+    ul{width:80%; height: auto;}
+    li{width: 50%; height: 100px; border-top: 1px solid #fa0; float: left;}
+   
+  </style>
+  <script></script>
+</head>
+<body>
+  <h1>가상선택자</h1>
+  <div class="first_box">first_box</div>
+  <div class="second_box">second_box</div>
+  <br class="clearfix" />
+  <div class="last_box">
+    <ul class="clearfix">
+      <li>list</li>
+      <li>list</li>
+      <li>list</li>
+      <li>list</li>
+      <li>list</li>
+      <li>list</li>
+      <li>list</li>
+      <li>list</li>
+      <li>list</li>
+      <li>list</li>
+    </ul>
+  </div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="./css/bin/reset.css" />
+	<link rel="stylesheet" href="./css/signin_test.css" />
+	<title>sign-in_test_02</title>
+</head>
+<body>
+	<h1>sign-in</h1>
+	<div class="sign_box">
+		<form action="" method="post">
+			<fieldset>
+				<legend>Step 1: Your details</legend>
+				<ul>
+					<li>
+						<label for="userName">Name</label>
+			    	<input type="text" name="userName" id="userName" value="" placeholder="First and last name" />
+					</li>
+					<li>
+						<label for="userEmail">Email</label>
+				    <input type="email" name="userEmail" id="userEmail" value="" placeholder="example@domain.com" />
+					</li>
+					<li>
+						<label for="userPhone">Phone</label>
+			     	<input type="tel" name="userPhone" id="userPhone" value="" placeholder="Eg. +447500000000" />
+					</li>
+				</ul>
+			</fieldset>
+
+			<fieldset>
+			  <legend>Step 2: Delivery address</legend>
+			  <ul>
+			  	<li class="clearfix">
+			  		<label for="address" >Address</label>
+			      <textarea name="address" id="address" value="" />
+			      </textarea>
+			   	</li>
+			  	<li>
+			  		<label for="postCode">Postcode</label>
+			      <input type="text" name="postCode" id="postCode" value="" />
+			  	</li>
+			  	<li>
+			  		<label for="country">Country</label>
+			      <input type="text" name="country" id="country" value="" />
+			  	</li>
+			  </ul>
+			</fieldset>
+
+			<fieldset>
+			  <legend>Step 3: Card details</legend>
+			  <ul>
+			  	<li>
+			  	  <p>Card type</p>
+			  	  <div class="cardLabel clearfix">
+			  		  <input type="radio" name="cardType" id="visa" value="" />
+			        <label for="">VISA</label>
+			        <input type="radio" name="cardType" id="amex" value="" />
+			        <label for="">AmEx</label>
+			        <input type="radio" name="cardType" id="mastercard" value="" />
+			        <label for="">Mastercard</label>
+			      </div>
+			  	</li>
+			  	<li>
+			  		<label for="">Card number</label>
+			      <input type="text" name="" id="" value="" />
+			  	</li>
+			  	<li>
+			  		<label for="">Security code</label>
+		     	  <input type="text" name="" id="" value="" />
+			  	</li>
+			  	<li>
+			  		<label for="">Name on card</label>
+			      <input type="text" name="" id="" value="" placeholder="exact name as on the card" />
+			  	</li>
+			  </ul>
+			</fieldset>
+			<button type="button" name="">BUY IT!</button>
+		</form>
+	</div>
+</body>
+</html>

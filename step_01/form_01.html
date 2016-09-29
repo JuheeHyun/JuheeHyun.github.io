@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko-KR">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <meta name="keywords" content="form, input, select" />
+  <meta name="description" content="form 코드를 이해하고 이에따른 input 및 select 기능을 알 수 있다" />
+  <meta name="title" content="form 기능이해하기" />
+  <meta name="author" content="jh" />
+  <link rel="apple-touch-icon" href="favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+  
+  <title>Document</title>
+  <style type="text/css"></style>
+  <script type="text/javascript"></script>
+</head>
+<body>
+  <h1>form 기본을 이해하기</h1>
+  <form action="#" method="post">
+    <fieldset>
+      <legend>입력의 기능</legend>
+      <label for="user">아이디를 입력하세요</label>
+      <input type="text" id="user" value="" maxlength="5" placeholder="id"/>
+      
+      <label for="pwd">비밀번호를 입력하세요</label>
+      <input type="password" id="pwd" value="" maxlength="10" placeholder="pwd"/>
+      
+      <label for="secr">암묵적 방식의 label 처리
+        <input type="text" id="secr" name="secr" maxlength="10" value="" />
+      </label>
+      
+    </fieldset>
+    
+    <fieldset>
+      <legend>선택의 기능</legend>
+      <p>좋아하는 성별을 선택하세요</p>
+      <input type="radio" name="sex" id="male" value="male" />
+      <label for="male">남자</label>
+      <input type="radio" name="sex" id="female" value="female" />
+      <label for="female">여자</label>
+      <hr />
+      
+      <p>좋아하는 음식을 선택하세요</p>
+      <input type="checkbox" name="food" id="sushi" value="sushi" />
+      <label for="sushi">초밥</label>
+      <input type="checkbox" name="food" id="chicken" value="chichken" />
+      <label for="chichken">치킨</label>
+      <input type="checkbox" name="food" id="dim" value="dim" />
+      <label for="dim">딤섬</label>
+      
+    </fieldset>
+    
+    <fieldset>
+      <legend>버튼의 기능</legend>
+      <input type="submit" name="ok" id="ok" value="확인" /><label for="ok"></label>
+      <input type="reset" name="cancle" id="cancle" value="취소" /><label for="cancle"></label>
+      <input type="image" src="favicon.png" name="img" id="img" value="이미지" /><label for="img"></label>
+      <input type="button" name="btn" id="btn" value="버튼" /><label for="btn"></label>
+      <input type="file" name="fileOrder" id="fileOrder" value="" /><label for="fileOrder"></label>
+    </fieldset>
+    
+    <fieldset>
+      <legend>기타 멀티기능</legend>
+      <label for="multi">여러줄 작성</label>
+      <textarea name="multi" id="multi" value="" cols="40" rows="20" readonly="readonly">
+간단한 계약서를 작성하도록 합니다.  
+1. aaa
+2. aaa-2
+3. aaa-3
+      </textarea>
+      <label for="programSelector">주 사용 프로그램을 선택하세요</label>
+      <select name="programSelector" id="programSelector">
+        <option>선택하세요</option>
+        <optgroup label="graphic">
+          <option value="photoshop">포토샵</option>
+          <option value="illustrator">일러스트</option>
+        </optgroup>
+        <optgroup label="web programming">
+          <option value="html">html</option>
+          <option value="html">css</option>
+          <option value="jquery">jquery</option>
+        </optgroup>
+      </select>
+      
+      <button name="" type="submit">확인</button>
+      <button name="" type="reset">취소</button>
+      <button name="" type="button">다양한</button>
+      <button name=""> <img src="./favicon.png" alt="이미지확인" /></button>
+    </fieldset>
+  </form>
+</body>
+</html>

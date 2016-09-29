@@ -1,0 +1,31 @@
+section{width: 960px; height: 100%; background-color: #ddf; margin: 0 auto;}
+#headBox{width: 100%; height: 5rem; background-color: #aa7;}
+.title_name{width: 20%; height: 4rem; background-color: #f6f; float: left; margin: 1rem;}
+#headBox > ul{width: 50%; height: 3rem; background-color: #ccc; float: right; margin: 0.5rem;}
+#headBox li{width: 30%; float: left;}
+[href="#"]{color: #fff; font-weight: bold; font-size: 1.5rem;}
+
+/*------------------------------------------------*/
+/*형제 선택자:~(동생)
+  인접형제 선택자:+(바로뒤)
+
+  :nth-child(){}
+  :first-child(){}
+  :last-child(){}
+  :nth-of-type(){}
+  :first-of-type(){}
+  :last_of-type(){}
+
+  ::before{content:"";}
+  ::after{contetn:"";}
+*/
+/*
+.ul_1 ~ li{background-color: #888;}
+
+h2+div{}{background-color: #fff;}
+*/
+
+dt{width: 150px; height: 2rem; background-color: #ccc; border-bottom: 1px solid #333;}
+dd{width: 150px; height: 0; background-image:linear-gradient(#aaa, #0af); color: #fff; overflow: hidden; transition: 1s;}
+dt:hover + dd{height: 5rem;}
+#headBox li:nth-child(3)>a{color: #f07;}

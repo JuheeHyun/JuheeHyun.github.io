@@ -1,0 +1,32 @@
+*{margin:0; padding: 0; border: 0;}
+li{list-style: none;}
+
+body{margin: 0; }
+#container{width: 960px; height: auto; background-color: #000; margin: 0; margin: auto;}
+.clearfix, .clearfix:before, .clearfix:after{content: ""; display: block; clear: both;}
+
+/* header */
+.header{width: 820px; height: 165px; background-color: #555; padding: 25px 70px 10px;}
+.logo{width:120px; height: 165px; background-color: #ccc; float: left;}
+.login{width:160px; height:70px; background-color:#ccc; float:right;}
+.gnb{width:640px; height:70px; background-color:#ccc; float:right; margin-top: 25px;}
+
+
+
+
+/* section */
+.section{width: 820px; height: auto; background-color: #59c; padding: 10px 70px 10px;}
+.first_box{width: 820px; height: 450px; background-color: #000; margin-top: 10px; }
+
+
+.second_box{width:810px; height:auto; background-color:#ccc; margin-top: 10px; padding: 10px 5px 10px;}
+.a>li{width: 395px; height: 250px; background-color: #fff; float: left; margin: 10px 5px 10px; }
+
+.third_box{width: 810px; height: auto; background-color: #ccc; margin-top: 10px; padding: 10px 5px 5px;}
+.b>li{width: 260px; height: 350px; background-color: #fff; float: left; margin: 10px 5px;}
+
+.last_box{width: 810px; height: auto; background-color: #ccc; margin-top:10px; padding: 10px 5px 5px;}
+.list_06{width: 530px; height: 720px; background-color:#fff; float: left; margin: 10px 5px;}
+.list_07{width: 260px; height: 350px; background-color:#fff; float: left; margin: 10px 5px;}
+.list_08{width: 260px; height: 350px; background-color:#fff; float: right; margin: 10px 5px;}
+

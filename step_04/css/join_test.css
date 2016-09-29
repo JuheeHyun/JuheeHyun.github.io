@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.container{width: 768px; height: auto; margin: 0 auto;  background-color: #ccc; padding: 15px 20px;}
+.container>h2{width: 100%; height: 76px; background-color: #8DCBC5; margin-bottom: 36px; color: #fff;}
+.container>h2>i{width: 80px; height: 56px; color: #fff; padding-top: 20px; float: left; display: inline-block; text-align: center; background-color: #313131; position: relative; margin-right: 1rem;}
+.container>h2>i:before{color:#777; font-size: 2rem;}
+.container>h2>i:after{content: "SIGN UP";display: block; width: 100%; color:#aaa; font-size: 0.5rem; position: absolute; bottom: 16px; left: 50%; margin-left: -40px;}
+.container>h2>span{width: 80px; height: 56px; float: left; display: inline-block; padding-top: 3rem;}
+.container>form{width:100%; height: 720px; background-color: #ccc;}
+.container fieldset{border: 1px solid #999; background-color: #F8F8F8; margin-bottom: 20px; padding: 20px 10px;  font-size: 0.8rem; border-radius: 5px;}
+.container label{}
+.container span{width: 0; height: 0; display: block; overflow: hidden;}
+.container input{}
+.container textarea{width:100%; height: auto; background-color: transparent;}
+.checkBox{color:#F67342; font-weight: bold; margin-top: 10px;}
+.container fieldset ul{margin-bottom: 10px; }
+.container fieldset li{margin-bottom: 10px; border-radius: 5px;}
+.join_01{float: left; margin-right: 30px;}
+.join_01>li{width: auto; margin: 0; padding: 0;}
+.join_02{float: left;}
+.join_02>li{width: auto; margin: 0; padding: 0;}
+[type="button"]{ border-radius: 5px; border: 1px solid #C9C8C8; display: block; float:right; font-size: 0.8rem;}
+#ok{background-color: #F67342; color:#fff; float: left;}
+#cancle{background-color: #fff; float: left;}

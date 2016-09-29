@@ -1,0 +1,10 @@
+/* tabl_01.css*/
+
+table, tr, td, th{
+  border-width: 1px; /* 선두께 */
+  border-style: solid; /* 선모양 solid | dotted | dashed | double */
+  border-color: #333; /* 선색상 */
+  border-spacing: 0; /* 선사이 간격 */
+  border-collapse: collapse; /* 선의 합치기 여부 */
+}
+td, th{padding: 1rem;}
